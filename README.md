@@ -1,4 +1,5 @@
-# SmartChico
+![alt text](https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/doc/images/icon.256.png)
+
 Cartografia Urbanográfica do Sertão do São Francisco
 
 Aplicativo com a finalidade de promover a cultura do Território de Identidade Sertão do São Francisco, que compreende os municípios 

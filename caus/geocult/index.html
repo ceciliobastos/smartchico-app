@@ -1,0 +1,74 @@
+<html>
+<head>
+  <title>GeoCult</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <link rel="stylesheet" href="css/leaflet.css" />
+  <script src="js/leaflet.js"></script>
+
+  <link rel="stylesheet" href="css/MarkerCluster.css" />
+  <link rel="stylesheet" href="css/MarkerCluster.Default.css" />
+  <script src="js/leaflet.markercluster.js"></script>
+
+  <script src="js/jquery-2.2.4.min.js"></script>
+  <link rel="stylesheet" href="css/mystyles.css" />
+</head>
+<body>
+  <div id="map"></div>
+  <script>
+  // initialize the map
+  var map = L.map('map').setView([-9.6, -40.6], 9);
+
+  // load a tile layer
+  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>',
+    maxZoom: 18,
+    id: 'rogeriobastos.08164jab',
+    accessToken: 'pk.eyJ1Ijoicm9nZXJpb2Jhc3RvcyIsImEiOiJjaW9vZjBka2UwMDVsdHNrbTc5aDRwMW9hIn0.E8itic_IW42gcgLO12oLJw'
+  }).addTo(map);
+
+  // load GeoJSON from an external file
+  $.getJSON("./../data/geojson.json", function(data) {
+    var geofeatures = [];
+
+    //Filtra os JSON
+    function _geofilter(key,feature) {
+      if (feature.properties.category == "cultura") {
+        feature.properties.popupContent = "" +
+        (feature.properties.description ? feature.properties.description + '<br>':'') +
+        (feature.properties.image ? '<img src="' + feature.properties.image + '">' : '') +
+        (feature.properties.sound ? '<iframe src="' + feature.properties.sound + '"></iframe>' : '') +
+        (feature.properties.caption ? '<br><h3>' + feature.properties.caption + '<h3>' : '');
+        geofeatures.push(feature);
+      }
+    }
+
+    $.each(data.features, _geofilter);
+
+    var markers = L.geoJson(geofeatures, {
+      pointToLayer: function(feature, latlng) {
+        var marker = L.marker(latlng);
+        marker.bindPopup(feature.properties.popupContent, {minHeight: feature.properties.width, minWidth: feature.properties.width});
+        return marker;
+      }
+    });
+
+    var clusters = L.markerClusterGroup();
+    clusters.addLayer(markers);
+    map.addLayer(clusters);
+  });
+
+  var popup = L.popup();
+
+  function onMapClick(e) {
+    popup
+    .setLatLng(e.latlng)
+    .setContent(e.latlng.toString())
+    .openOn(map);
+  }
+
+  map.on('click', onMapClick);
+
+  </script>
+</body>
+</html>

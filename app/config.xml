@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.uneb.smartchico" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>SmartChico</name>
+    <description>
+	Aplicativo com a finalidade de promover a cultura do Território de Identidade Sertão do São Francisco, que compreende os municípios baianos de Juazeiro, Curaçá, Sobradinho, Casa Nova, Canudos, Uauá, Campo Alegre de Lourdes, Sento Sé, Pilão Arcado e Remanso. Busca se alinhar a propósitos críticos interrelacionados com uma melhor compreensão e fomento das cidades inteligentes, cuja infraestrutura incorpora redes e serviços de computadores, que são consumidos pelos usuários emmobilidade pelo espaço urbano. Para coleta, tratamento e divulgação das informações, são utilizados procedimentos com mídias locativas e produção de conteúdo informativo para bases de dados abertas. Os dados são importados para o aplicativo dedicado, contribuindo para aumentar uma divulgação fundamentada em aspectos ligados à cultura regional, como urbanografia (arte de rua, esculturas, monumentos, lendas urbanas etc), equipamentos/serviços culturais públicos, turismo (serras, parques, cachoeiras etc).
+    </description>
+    <author email="contato@bigeyes.solutions" href="http://bigeyes.solutions">
+        Big Eyes Solution
+    </author>
+    <author email="luizadolfoandrade@gmail.com" href="">
+	Luiz Adolfo Andrade
+    </author>
+    <author email="cecilioricardo@gmail.com" href="">
+	Cecílio Ricardo
+    </author>
+    <author email="biraifba@gmail.com" href="">
+	Ubirajara Júnior
+    </author>
+    <content src="index.html" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackgroundColor" value="0xffffffff" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="SplashScreenDelay" value="5000" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value="500" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <platform name="android">
+        <splash density="land-hdpi" src="res/screen/android/splash-land-hdpi.png" />
+        <splash density="land-ldpi" src="res/screen/android/splash-land-ldpi.png" />
+        <splash density="land-mdpi" src="res/screen/android/splash-land-mdpi.png" />
+        <splash density="land-xhdpi" src="res/screen/android/splash-land-xhdpi.png" />
+        <splash density="land-xxhdpi" src="res/screen/android/splash-land-xxhdpi.png" />
+        <splash density="land-xxxhdpi" src="res/screen/android/splash-land-xxxhdpi.png" />
+        <splash density="port-hdpi" src="res/screen/android/splash-port-hdpi.png" />
+        <splash density="port-ldpi" src="res/screen/android/splash-port-ldpi.png" />
+        <splash density="port-mdpi" src="res/screen/android/splash-port-mdpi.png" />
+        <splash density="port-xhdpi" src="res/screen/android/splash-port-xhdpi.png" />
+        <splash density="port-xxhdpi" src="res/screen/android/splash-port-xxhdpi.png" />
+        <splash density="port-xxxhdpi" src="res/screen/android/splash-port-xxxhdpi.png" />
+        <icon density="ldpi" src="res/android/ldpi.png" />
+        <icon density="mdpi" src="res/android/mdpi.png" />
+        <icon density="hdpi" src="res/android/hdpi.png" />
+        <icon density="xhdpi" src="res/android/xhdpi.png" />
+        <icon density="xxhdpi" src="res/android/xxhdpi.png" />
+        <icon density="xxxhdpi" src="res/android/xxxhdpi.png" />
+    </platform>
+    <platform name="ios">
+        <splash height="480" src="res/screen/ios/Default~iphone.png" width="320" />
+        <splash height="960" src="res/screen/ios/Default@2x~iphone.png" width="640" />
+        <splash height="1024" src="res/screen/ios/Default-Portrait~ipad.png" width="768" />
+        <splash height="2048" src="res/screen/ios/Default-Portrait@2x~ipad.png" width="1536" />
+        <splash height="768" src="res/screen/ios/Default-Landscape~ipad.png" width="1024" />
+        <splash height="1536" src="res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" />
+        <splash height="1136" src="res/screen/ios/Default-568h@2x~iphone.png" width="640" />
+        <splash height="1334" src="res/screen/ios/Default-667h.png" width="750" />
+        <splash height="2208" src="res/screen/ios/Default-736h.png" width="1242" />
+        <splash height="1242" src="res/screen/ios/Default-Landscape-736h.png" width="2208" />
+        <icon height="180" src="res/ios/icon-60@3x.png" width="180" />
+        <icon height="60" src="res/ios/icon-60.png" width="60" />
+        <icon height="120" src="res/ios/icon-60@2x.png" width="120" />
+        <icon height="76" src="res/ios/icon-76.png" width="76" />
+        <icon height="152" src="res/ios/icon-76@2x.png" width="152" />
+        <icon height="40" src="res/ios/icon-40.png" width="40" />
+        <icon height="80" src="res/ios/icon-40@2x.png" width="80" />
+        <icon height="57" src="res/ios/icon.png" width="57" />
+        <icon height="114" src="res/ios/icon@2x.png" width="114" />
+        <icon height="72" src="res/ios/icon-72.png" width="72" />
+        <icon height="144" src="res/ios/icon-72@2x.png" width="144" />
+        <icon height="29" src="res/ios/icon-small.png" width="29" />
+        <icon height="58" src="res/ios/icon-small@2x.png" width="58" />
+        <icon height="50" src="res/ios/icon-50.png" width="50" />
+        <icon height="100" src="res/ios/icon-50@2x.png" width="100" />
+    </platform>
+    <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.2.3" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
+</widget>

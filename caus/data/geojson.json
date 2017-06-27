@@ -1,0 +1,3757 @@
+{
+  "file_release": 0,
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite1.jpg",
+        "height": "200",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49352, -9.42184]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite2.jpg",
+        "height": "182",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.4897, -9.41488]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite3.jpg",
+        "height": "275",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.4896, -9.4148]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite4.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50475, -9.4073]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite5.jpg",
+        "height": "230",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50587, -9.40594]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite6.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50547, -9.41043]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite7.jpg",
+        "height": "125",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50643, -9.41051]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite8.jpg",
+        "height": "99",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50638, -9.4105]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite9.jpg",
+        "height": "87",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50633, -9.4105]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite10.jpg",
+        "height": "275",
+        "width": "164"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50569, -9.41079]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite11.jpg",
+        "height": "119",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50554, -9.41075]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite12.jpg",
+        "height": "182",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50573, -9.41081]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite13.jpg",
+        "height": "49",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.5057, -9.41089]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite14.jpg",
+        "height": "275",
+        "width": "251"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50577, -9.4109]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite15.jpg",
+        "height": "173",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50579, -9.41107]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite16.jpg",
+        "height": "275",
+        "width": "230"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.5057, -9.41111]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite17.jpg",
+        "height": "100",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.5056, -9.41107]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite18.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50547, -9.41093]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite19.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50548, -9.411]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite20.jpg",
+        "height": "200",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50548, -9.41107]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite21.jpg",
+        "height": "275",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.5055, -9.41109]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite22.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50122, -9.39887]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite23.jpg",
+        "height": "220",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50095, -9.39786]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite24.jpg",
+        "height": "182",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50095, -9.39794]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite25.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50097, -9.39801]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite26.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50098, -9.3981]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite27.jpg",
+        "height": "275",
+        "width": "201"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50713, -9.40879]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite28.jpg",
+        "height": "275",
+        "width": "264"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50736, -9.40874]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite29.jpg",
+        "height": "275",
+        "width": "195"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50733, -9.40874]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite30.jpg",
+        "height": "275",
+        "width": "192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50737, -9.40874]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite31.jpg",
+        "height": "235",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50761, -9.40869]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite32.jpg",
+        "height": "254",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50757, -9.40869]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite33.jpg",
+        "height": "275",
+        "width": "173"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50757, -9.40869]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite34.jpg",
+        "height": "211",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50771, -9.40867]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite35.jpg",
+        "height": "275",
+        "width": "206"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50769, -9.40867]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite36.jpg",
+        "height": "275",
+        "width": "212"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.5077, -9.40867]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite37.jpg",
+        "height": "275",
+        "width": "197"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50768, -9.40867]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite38.jpg",
+        "height": "222",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50768, -9.40868]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite39.jpg",
+        "height": "245",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50726, -9.40876]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite40.jpg",
+        "height": "275",
+        "width": "264"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50724, -9.40876]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite41.jpg",
+        "height": "275",
+        "width": "270"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50721, -9.40877]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite42.jpg",
+        "height": "100",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50802, -9.40922]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite43.jpg",
+        "height": "145",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50806, -9.40918]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite44.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50814, -9.40917]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite45.jpg",
+        "height": "275",
+        "width": "220"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50852, -9.40918]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite46.jpg",
+        "height": "275",
+        "width": "261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.5085, -9.40925]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite47.jpg",
+        "height": "275",
+        "width": "230"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.5085, -9.40927]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite48.jpg",
+        "height": "275",
+        "width": "172"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50847, -9.40915]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite49.jpg",
+        "height": "247",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50852, -9.40914]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite50.jpg",
+        "height": "260",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50857, -9.40917]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite51.jpg",
+        "height": "275",
+        "width": "184"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50861, -9.40916]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite52.jpg",
+        "height": "275",
+        "width": "156"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50862, -9.40922]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite53.jpg",
+        "height": "275",
+        "width": "240"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50865, -9.40922]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite54.jpg",
+        "height": "275",
+        "width": "182"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50597, -9.4099]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite55.jpg",
+        "height": "275",
+        "width": "170"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.4976, -9.41664]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite56.jpg",
+        "height": "275",
+        "width": "258"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.4976, -9.41664]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite57.jpg",
+        "height": "275",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.4976, -9.41664]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite58.jpg",
+        "height": "121",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.4897, -9.41488]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite59.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49608, -9.46476]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite60.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49608, -9.46476]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite61.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49608, -9.46476]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite62.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49608, -9.46476]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite63.jpg",
+        "height": "275",
+        "width": "188"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49608, -9.46476]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite64.jpg",
+        "height": "167",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49608, -9.46476]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite65.jpg",
+        "height": "165",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49608, -9.46476]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite66.jpg",
+        "height": "160",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49528, -9.4623]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite67.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49528, -9.4623]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite68.jpg",
+        "height": "275",
+        "width": "170"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49528, -9.4623]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite69.jpg",
+        "height": "166",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50413, -9.4277]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite70.jpg",
+        "height": "275",
+        "width": "212"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50432, -9.42733]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite71.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50514, -9.40973]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite72.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50357, -9.40226]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite73.jpg",
+        "height": "275",
+        "width": "218"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.81236, -9.40541]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite74.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50566, -9.41003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite75.jpg",
+        "height": "275",
+        "width": "156"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.5056, -9.4108]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite76.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.5056, -9.4108]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite77.jpg",
+        "height": "275",
+        "width": "260"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50548, -9.411]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite78.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50573, -9.41081]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite79.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50566, -9.41109]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite80.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50566, -9.41109]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite81.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50673, -9.41056]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite82.jpg",
+        "height": "111",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50689, -9.41048]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite83.jpg",
+        "height": "186",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50689, -9.41048]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite84.jpg",
+        "height": "173",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50689, -9.41048]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite85.jpg",
+        "height": "178",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50689, -9.41048]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite86.jpg",
+        "height": "187",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50689, -9.41048]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite87.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50699, -9.41058]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite88.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50699, -9.41058]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite89.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50699, -9.41058]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite90.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50699, -9.41058]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite91.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50699, -9.41058]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite92.jpg",
+        "height": "180",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90985, -8.99171]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite93.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90977, -8.99200]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite94.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90977, -8.99200]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite95.jpg",
+        "height": "275",
+        "width": "222"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90962, -8.99024]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite96.jpg",
+        "height": "156",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90962, -8.99024]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite97.jpg",
+        "height": "162",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90991, -8.99190]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite98.jpg",
+        "height": "189",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90829, -8.99284]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite99.jpg",
+        "height": "161",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90418, -8.99226]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite100.jpg",
+        "height": "181",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90418, -8.99226]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite101.jpg",
+        "height": "126",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90418, -8.99226]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite102.jpg",
+        "height": "275",
+        "width": "222"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90418, -8.99226]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite103.jpg",
+        "height": "275",
+        "width": "129"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90417, -8.99238]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite104.jpg",
+        "height": "259",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90417, -8.99238]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite105.jpg",
+        "height": "275",
+        "width": "262"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90378, -8.99249]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite106.jpg",
+        "height": "275",
+        "width": "198"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90378, -8.99249]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite107.jpg",
+        "height": "275",
+        "width": "270"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90378, -8.99249]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite108.jpg",
+        "height": "165",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90378, -8.99249]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite109.jpg",
+        "height": "177",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90378, -8.99249]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite110.jpg",
+        "height": "188",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90378, -8.99249]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite111.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90322, -8.99364]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite112.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90349, -8.99302]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite113.jpg",
+        "height": "275",
+        "width": "274"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50548, -9.411]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite114.jpg",
+        "height": "102",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50569, -9.41139]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite115.jpg",
+        "height": "184",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50573, -9.41081]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite116.jpg",
+        "height": "98",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50546, -9.40961]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite117.jpg",
+        "height": "163",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50546, -9.40961]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite118.jpg",
+        "height": "275",
+        "width": "222"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.60592, -9.67480]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite119.jpg",
+        "height": "171",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.80524, -9.47124]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite120.jpg",
+        "height": "261",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.80524, -9.47124]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite121.jpg",
+        "height": "275",
+        "width": "251"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.80524, -9.47124]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite122.jpg",
+        "height": "234",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.80524, -9.47124]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite123.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.80524, -9.47124]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite124.jpg",
+        "height": "275",
+        "width": "255"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.80469, -9.47428]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite125.jpg",
+        "height": "124",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.80469, -9.47428]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite126.jpg",
+        "height": "166",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.80469, -9.47428]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite127.jpg",
+        "height": "100",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite128.jpg",
+        "height": "163",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite129.jpg",
+        "height": "191",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite130.jpg",
+        "height": "185",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite131.jpg",
+        "height": "127",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite132.jpg",
+        "height": "115",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite133.jpg",
+        "height": "126",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite134.jpg",
+        "height": "114",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite135.jpg",
+        "height": "113",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite136.jpg",
+        "height": "98",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite137.jpg",
+        "height": "117",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite138.jpg",
+        "height": "175",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite139.jpg",
+        "height": "162",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite140.jpg",
+        "height": "93",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite141.jpg",
+        "height": "220",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite142.jpg",
+        "height": "105",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite143.jpg",
+        "height": "146",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite144.jpg",
+        "height": "135",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite145.jpg",
+        "height": "102",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite146.jpg",
+        "height": "155",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite147.jpg",
+        "height": "138",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite148.jpg",
+        "height": "163",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite149.jpg",
+        "height": "117",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite150.jpg",
+        "height": "128",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite151.jpg",
+        "height": "107",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite152.jpg",
+        "height": "103",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite153.jpg",
+        "height": "92",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite154.jpg",
+        "height": "170",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite155.jpg",
+        "height": "130",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite156.jpg",
+        "height": "146",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite157.jpg",
+        "height": "240",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite158.jpg",
+        "height": "171",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52405, -9.44975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite159.jpg",
+        "height": "149",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51395, -9.45305]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite160.jpg",
+        "height": "219",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51395, -9.45305]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite161.jpg",
+        "height": "253",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51395, -9.45305]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite162.jpg",
+        "height": "275",
+        "width": "147"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51395, -9.45305]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite163.jpg",
+        "height": "102",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51395, -9.45305]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite164.jpg",
+        "height": "179",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50279, -9.42490]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite165.jpg",
+        "height": "243",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50279, -9.42490]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite166.jpg",
+        "height": "201",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50279, -9.42490]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite167.jpg",
+        "height": "228",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50925, -9.41094]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite168.jpg",
+        "height": "165",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51459, -9.41358]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite169.jpg",
+        "height": "204",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51459, -9.41358]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite170.jpg",
+        "height": "188",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51459, -9.41358]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite171.jpg",
+        "height": "149",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51459, -9.41358]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite172.jpg",
+        "height": "131",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51436, -9.41373]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite173.jpg",
+        "height": "241",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51273, -9.41355]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite174.jpg",
+        "height": "274",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51273, -9.41355]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite175.jpg",
+        "height": "275",
+        "width": "193"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50124, -9.41510]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite176.jpg",
+        "height": "116",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50656, -9.41498]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite177.jpg",
+        "height": "275",
+        "width": "250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.57423, -9.47173]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite178.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.57423, -9.47173]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite179.jpg",
+        "height": "270",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.57423, -9.47173]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite180.jpg",
+        "height": "275",
+        "width": "220"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.57423, -9.47173]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite181.jpg",
+        "height": "170",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.57249, -9.47087]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite182.jpg",
+        "height": "127",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50004, -9.41183]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite183.jpg",
+        "height": "275",
+        "width": "236"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50004, -9.41183]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite184.jpg",
+        "height": "175",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50004, -9.41183]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite185.jpg",
+        "height": "131",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50004, -9.41183]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite186.jpg",
+        "height": "22",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50004, -9.41183]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite187.jpg",
+        "height": "164",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50066, -9.41146]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite188.jpg",
+        "height": "110",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50066, -9.41146]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite189.jpg",
+        "height": "228",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50066, -9.41146]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite190.jpg",
+        "height": "181",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50066, -9.41146]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite191.jpg",
+        "height": "48",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50066, -9.41146]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite192.jpg",
+        "height": "275",
+        "width": "155"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50079, -9.41098]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite193.jpg",
+        "height": "275",
+        "width": "260"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50005, -9.41125]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite194.jpg",
+        "height": "217",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50071, -9.41117]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite195.jpg",
+        "height": "136",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51298, -9.3934]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite196.jpg",
+        "height": "127",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50104, -9.41148]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Monumento ao fim do século 20",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult1.jpg",
+        "height": "275",
+        "width": "178"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90985, -8.99171]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Lavadeiras",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult2.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.91080, -8.99186]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Lavadeiras",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult3.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.91080, -8.99186]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Lavadeiras",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult4.jpg",
+        "height": "180",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.91080, -8.99186]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Lavadeiras",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult5.jpg",
+        "height": "179",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.91080, -8.99186]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Museu Auristela Torres",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult6.jpg",
+        "height": "180",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90943, -8.99095]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Museu Auristela Torres",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult7.gif",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90943, -8.99095]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Museu Auristela Torres",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult8.jpg",
+        "height": "268",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90943, -8.99095]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Igreja Matriz",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult9.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90931, -8.99064]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Teatro Raul Coelho",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult10.jpg",
+        "height": "222",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90927, -8.99245]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Biblioteca Municipal",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult11.jpg",
+        "height": "169",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90781, -8.99192]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Escada de Marujos",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult12.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90896, -8.98904]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Biblioteca Ponto Digital",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult13.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.79970, -9.46947]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Associação de Artes Cênicas de Sobradinho",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult14.jpg",
+        "height": "124",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.80466, -9.47436]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/289196812&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
+        "height": "200",
+        "width": "300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90985, -8.99171]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Monumento em homenagem ao município",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur1.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90985, -8.99171]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Praça do Pôr do Sol",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur2.jpg",
+        "height": "185",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.91006, -8.99190]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Praça do Chuveiro",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur3.jpg",
+        "height": "177",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.91006, -8.99190]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Praça do Pôr do Sol",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur4.jpg",
+        "height": "192",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.91006, -8.99190]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Ilha da Coroa",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur5.jpg",
+        "height": "180",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.91672, -8.989]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Calçadão",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur6.jpg",
+        "height": "189",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90883, -8.99170]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Mercado",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur7.jpg",
+        "height": "180",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90821, -8.99262]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Sociedade dos Vaqueiros",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur8.jpg",
+        "height": "275",
+        "width": "179"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90607, -8.99302]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Praça da Gruta",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur9.jpg",
+        "height": "175",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.90303, -8.99195]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Prefeitura Municipal",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur10.jpg",
+        "height": "179",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.909477, -8.991664]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Igreja do Distrito de Junco",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur11.jpg",
+        "height": "275",
+        "width": "218"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.60592, -9.67480]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Cachoeira da Gameleira: início da trilha",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur12.gif",
+        "height": "179",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.62867, -9.87593]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Trilha para a Cachoeira da Gameleira",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur13.gif",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.62868, -9.87594]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Cachoeira da Gameleira",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur14.gif",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.62823, -9.87029]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Usina Hidrelétrica de Sobradinho",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur15.gif",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.83173, -9.43926]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Usina Hidrelétrica de Sobradinho",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur16.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.83173, -9.43926]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Serra Dez",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur17.jpg",
+        "height": "72",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.87956, -9.49606]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Serra Dez",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur18.gif",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.87956, -9.49606]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Serra Dez",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur19.gif",
+        "height": "72",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.88271, -9.49680]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "São Gonçalo da Serra",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur20.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.94667, -9.58524]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "São Gonçalo da Serra",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur21.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.94667, -9.58524]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "São Gançalo da Serra",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur22.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.94667, -9.58524]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "São Gonçalo da Serra",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur23.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.94667, -9.58524]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "São Gonçalo da Serra",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur24.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.94667, -9.58524]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "São Gonçalo da Serra",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur25.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.94667, -9.58524]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "São Gonçalo da Serra",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur26.gif",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.94667, -9.58524]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Balneário do Chico Periquito",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geotur/images/tur27.gif",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.80821, -9.44479]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/289197477&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
+        "height": "200",
+        "width": "300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.62868, -9.87594]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Serra do Olho D'água",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur28.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.888686, -9.506036]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Serra do Olho D'água",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur29.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.888686, -9.506036]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Serra do Olho D'água",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur30.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.888686, -9.506036]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Serra Dez",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur31.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.87807, -9.50062]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Serra Dez",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur32.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.87807, -9.50062]
+      }
+    }
+  ]
+}
