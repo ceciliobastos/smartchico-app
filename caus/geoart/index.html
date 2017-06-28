@@ -27,7 +27,7 @@
     accessToken: 'pk.eyJ1Ijoicm9nZXJpb2Jhc3RvcyIsImEiOiJjaW9vZjBka2UwMDVsdHNrbTc5aDRwMW9hIn0.E8itic_IW42gcgLO12oLJw'
   }).addTo(map);
   // load GeoJSON from an external file
-  $.getJSON("./../data/geojson.json", function(data) {
+  $.getJSON("https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/geojson.json", function(data) {
     var geofeatures = [];
 
     //Filtra os JSON
