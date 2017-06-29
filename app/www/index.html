@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <!--
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
         <meta charset="utf-8">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
@@ -11,22 +14,26 @@
         <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
         <link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.4.5.min.css">
         <link rel="stylesheet" type="text/css" href="css/jquery.mobile.icons.min.css">
+        <link rel="stylesheet" type="text/css" href="css/smartchico.min.css">
         <link rel="stylesheet" type="text/css" href="css/leaflet.css">
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <title>SmartChico</title>
     </head>
     <body>
       <section id="mapa" data-role="page" data-title="Mapa">
-          <footer>
-              <h1></h1>
-          </footer>
-
-          <div role="main" class="ui-content">
-          </div>
+          <footer data-role="footer" data-position="fixed" data-tap-toggle="false"></footer>
+          <div role="main" class="ui-content mapView"></div>
       </section>
-
+      
       <section id="sobre" data-role="page" data-tile="Sobre">
+          <header data-role="header">
+              <a href="#mapa" data-transition="slideup" class="be-btn-back">&nbsp;</a>
+              <h1></h1>
+          </header>
           <div role="main" class="ui-content">
+              <h2>Sobre o SmartChico</h2>
+              xoxoxoxoxox
+              oxoxoxoxox
           </div>
       </section>
 

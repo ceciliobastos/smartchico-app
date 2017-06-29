@@ -1,46 +1,64 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
-var app = {
-    // Application Constructor
-    initialize: function() {
-        document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
-    },
+$(document).on("mobileinit", function () {
+    $.mobile.loader.prototype.options.text = "loading";
+    $.mobile.loader.prototype.options.textVisible = false;
+    $.mobile.loader.prototype.options.theme = "a";
+    $.mobile.loader.prototype.options.html = '<i class="fa fa-pulse fa-spin fa-5x fa-fw margin-bottom"></i>';
+});
 
-    // deviceready Event Handler
-    //
-    // Bind any cordova events here. Common events are:
-    // 'pause', 'resume', etc.
-    onDeviceReady: function() {
-        this.receivedEvent('deviceready');
-    },
+$(document).on("pagecontainerbeforechange", function (event, ui) {
+    //var toPage = $(ui.toPage).attr('id');
+    //var prevPage = $(ui.prevPage).attr('id');
 
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
+    //if (prevPage === 'mapa') {
+    //}
+});
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
+$(document).on("pagecontainerchange", function (event, ui) {
+  var toPage = $(ui.toPage).attr('id');
+  var prevPage = $(ui.prevPage).attr('id');
 
-        console.log('Received Event: ' + id);
-    }
-};
+console.log(toPage)
 
-app.initialize();
+  if (toPage === 'mapa')
+      criarMapa();
+  if (prevPage === 'mapa')
+    destruirMapa();
+});
+
+function criarMapa() {
+  $('#mapa .mapView').append('<div id="mapLocal">');
+
+	var localLatLng = L.latLng(-23.5928401,-46.6488079);
+
+	var map = L.map('mapLocal', {
+		zoom: 16,
+		center: localLatLng,
+		zoomControl: false
+	}).setView([-23.5928401,-46.6488079],16);
+
+  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>',
+    maxZoom: 18,
+    id: 'rogeriobastos.08164jab',
+    accessToken: 'pk.eyJ1Ijoicm9nZXJpb2Jhc3RvcyIsImEiOiJjaW9vZjBka2UwMDVsdHNrbTc5aDRwMW9hIn0.E8itic_IW42gcgLO12oLJw'
+  }).addTo(map);
+}
+
+function destruirMapa() {
+    $('#mapa .mapView').empty();
+}
+
+$("#mpanel").trigger("updatelayout");
+
+function showLoading() {
+    $.mobile.loading("show", {
+        text: "foo",
+        textVisible: false,
+        theme: "a",
+        html: '<i class="fa fa-spinner fa-pulse fa-3x fa-fw margin-bottom"></i>'
+    });
+}
+
+function hideLoading() {
+    $.mobile.loading("hide");
+}

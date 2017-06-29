@@ -26,8 +26,8 @@
     <preference name="FadeSplashScreenDuration" value="500" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <access origin="*" />
+    <access origin="https://api.tiles.mapbox.com/v4/*" />
     <access origin="https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/geojson.json" />
-    <allow-intent href="https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/geojson.json" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
