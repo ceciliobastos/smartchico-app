@@ -1,3 +1,5 @@
+var geojsonbase = 'https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/geojson.json';
+
 $(document).on("mobileinit", function () {
     $.mobile.loader.prototype.options.text = "loading";
     $.mobile.loader.prototype.options.textVisible = false;
@@ -61,4 +63,47 @@ function showLoading() {
 
 function hideLoading() {
     $.mobile.loading("hide");
+}
+
+function setGeoJSONtoMap () {
+  //@todo SE TIVER ARMAZENADO CARREGAR NO MAPA EM DIFERENTES CAMADAS
+}
+
+function getGeoJSON () {
+  var release = [];
+  var turismo = [];
+  var cultura = [];
+  var arte = [];
+
+  function _geofilter(key,feature) {
+    switch (feature.properties.category) {
+      case 'turismo':
+
+        break;
+      case 'cultura':
+
+        break;
+      case 'arte':
+      default:
+
+    }
+    if (feature.properties.category == "turismo") {
+      feature.properties.popupContent = "" +
+      (feature.properties.description ? feature.properties.description + '<br>':'') +
+      (feature.properties.image ? '<img src="' + feature.properties.image + '">' : '') +
+      (feature.properties.sound ? '<iframe src="' + feature.properties.sound + '"></iframe>' : '') +
+      (feature.properties.caption ? '<br><h3>' + feature.properties.caption + '<h3>' : '');
+      geofeatures.push(feature);
+    }
+  }
+
+  function _cacheGeoJSON (data) {
+    //@todo LER O CAMPO release DA BASE LOCAL e COMPARAR COM O ONLINE
+    // SE O LOCAL FOR MAIOR OU IGUAL RETURN
+
+
+    setGeoJSONtoMap();
+  }
+
+  $.getJSON(geojsonbase, _cacheGeoJSON).fail(setGeoJSONtoMap);
 }
