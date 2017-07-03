@@ -42,3 +42,17 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
 	border: none !important;
 	background-color: transparent !important;
 }
+
+.be-btn-menu{
+	height: 6%;
+	position: fixed;
+	top: 1rem;
+	left: 1rem;
+}
+
+.be-btn-location{
+	height: 6%;
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+}
