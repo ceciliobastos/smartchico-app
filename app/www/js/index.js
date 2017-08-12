@@ -140,8 +140,23 @@ function setGeoJSONtoMap () {
 
   var markers = L.geoJson(mergedFeatures, {
     pointToLayer: function(feature, latlng) {
-      var marker = L.marker(latlng);
-      marker.bindPopup(feature.properties.popupContent, {minHeight: feature.properties.width, minWidth: feature.properties.width});
+      var icon = L.icon ({
+        iconUrl: 'img/icon.' + feature.properties.category + '.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [-3, -76],
+        shadowUrl: 'img/marker-shadow.png',
+        shadowSize: [41, 41],
+        shadowAnchor: [13, 41]
+      });
+
+      var marker = L.marker(latlng, {icon: icon});
+      marker.bindPopup(
+        feature.properties.popupContent, {
+          minHeight: feature.properties.width,
+          minWidth: feature.properties.width
+        }
+      );
       return marker;
     }
   });
