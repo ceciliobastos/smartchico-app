@@ -9,6 +9,7 @@ var showTur = true;
 var showCult = true;
 var showArt = true;
 var map = false;
+var watchId = false;
 
 $(document).on("mobileinit", function () {
     $.mobile.loader.prototype.options.text = "loading";
@@ -136,10 +137,10 @@ function setGeoJSONtoMap () {
         iconUrl: 'img/icon.' + feature.properties.category + '.png',
         iconSize: [35, 48],
         iconAnchor: [17.5, 48],
-        popupAnchor: [0, -55],
-        shadowUrl: 'img/marker-shadow.png',
+        popupAnchor: [0, -55]
+        /*shadowUrl: 'img/marker-shadow.png',
         shadowSize: [35, 13],
-        shadowAnchor: [17.5, 6.5]
+        shadowAnchor: [17.5, 6.5]*/
       });
 
       var marker = L.marker(latlng, {icon: icon});
@@ -215,3 +216,28 @@ function initLocalBase () {
     JSON.parse(localStorage.getItem('geojsonbase')) :
     false;
 }
+
+function __setMapToUserLocation (pos) {
+  map.panTo(
+    L.latLng(pos.coords.latitude,pos.coords.longitude),
+    { animate: true }
+  );
+  console.log ('geolocation: ' +
+    JSON.stringify(pos.coords.latitude) +
+    ',' + pos.coords.longitude
+  );
+}
+
+function __setMapToUserLocationError (error) {
+  console.log('code: ' + error.code + '\nmessage: ' + error.message + '\n');
+}
+
+function setMapToUserLocation () {
+  navigator.geolocation.getCurrentPosition(
+    __setMapToUserLocation,
+    __setMapToUserLocationError,
+    { enableHighAccuracy: true }
+  );
+}
+
+$('.be-btn-location').on('click', setMapToUserLocation);
