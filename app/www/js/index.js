@@ -42,11 +42,23 @@ function centerToUser () {
   //TODO Centralizar mapa na posição do usuário
 }
 
-function swapShowTur () { showTur = !showTur; setGeoJSONtoMap(); }
+function swapShowTur () {
+  showTur = !showTur;
+  setGeoJSONtoMap();
+  return showTur;
+}
 
-function swapShowArt () { showArt = !showArt; setGeoJSONtoMap(); }
+function swapShowArt () {
+  showArt = !showArt;
+  setGeoJSONtoMap();
+  return showArt;
+}
 
-function swapShowCult () {showCult = !showCult; setGeoJSONtoMap(); }
+function swapShowCult () {
+  showCult = !showCult;
+  setGeoJSONtoMap();
+  return showCult;
+}
 
 /**
  * Cria o mapa em #mapa .mapView
