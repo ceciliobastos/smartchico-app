@@ -27,15 +27,6 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
 	border: none!important;
 }
 
-.leaflet-pane {
-	z-index: 0 !important;
-}
-
-.leaflet-container .leaflet-control-attribution {
-	background: none;
-	bottom: 2.7rem;
-}
-
 .be-btn-back {
 	background: url('images/btn-back.png') center no-repeat;
 	background-size: contain;
@@ -55,4 +46,42 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
 	position: fixed;
 	top: 1rem;
 	right: 1rem;
+}
+
+.leaflet-pane {
+	z-index: 0 !important;
+}
+
+.leaflet-container .leaflet-control-attribution {
+	background: none;
+	bottom: 2.7rem;
+}
+
+.leaflet-popup {
+}
+
+.leaflet-popup-content-wrapper {
+	padding: 0.5rem !important;
+	border-radius: 0.4rem !important;
+}
+
+.leaflet-popup-close-button {
+	margin-left: -5px !important;
+	font-size: 2rem !important;
+}
+
+.marker-cluster-small div {
+	background-color: #f2d421 !important;
+}
+
+.marker-cluster-medium div {
+	background-color: #e3a01e !important;
+}
+
+.marker-cluster-big div {
+	background-color: #7c8aa5 !important;
+}
+
+.marker-cluster-large,.marker-cluster-huge div {
+	background-color: #ffffff;
 }

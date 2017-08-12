@@ -77,7 +77,7 @@ function criarMapa() {
 	}).setView([-9.41192,-40.50267],16)
   .on('popupopen', function(e) {
     var px = map.project(e.popup._latlng);
-    px.y -= e.popup._container.clientHeight/2;
+    px.y -= (e.popup._container.clientHeight + 200)/2;
     map.panTo( map.unproject(px),{animate: true} );
   });
 
@@ -118,20 +118,6 @@ function hideLoading() {
     $.mobile.loading("hide");
 }
 
-function prepareMarkers () {
-  var turMarkers = L.geoJson(localGeoJSON.turismo, {
-    pointToLayer: function(feature, latlng) {
-      var marker = L.marker(latlng);
-      marker.bindPopup(feature.properties.popupContent
-      //  , {minHeight: feature.properties.width, minWidth: feature.properties.width}
-      );
-      return marker;
-    }
-  });
-
-
-}
-
 function setGeoJSONtoMap () {
   //@todo SE TIVER ARMAZENADO CARREGAR NO MAPA EM DIFERENTES CAMADAS
   if(map === false || localGeoJSON === false) return;
@@ -148,12 +134,12 @@ function setGeoJSONtoMap () {
     pointToLayer: function(feature, latlng) {
       var icon = L.icon ({
         iconUrl: 'img/icon.' + feature.properties.category + '.png',
-        iconSize: [25, 41],
-        iconAnchor: [12, 41],
-        popupAnchor: [0, -45],
+        iconSize: [35, 48],
+        iconAnchor: [17.5, 48],
+        popupAnchor: [0, -55],
         shadowUrl: 'img/marker-shadow.png',
-        shadowSize: [41, 41],
-        shadowAnchor: [13, 41]
+        shadowSize: [35, 13],
+        shadowAnchor: [17.5, 6.5]
       });
 
       var marker = L.marker(latlng, {icon: icon});
@@ -161,12 +147,11 @@ function setGeoJSONtoMap () {
         feature.properties.popupContent, {
           minHeight: feature.properties.width,
           minWidth: feature.properties.width,
-          autoPan: true,
+          //autoPan: true,
           autoClose: true
         }
-      ).on ('click', function () {
-        console.log("Abriu");
-      });
+      );
+
       return marker;
     }
   });
