@@ -74,7 +74,13 @@ function criarMapa() {
 		zoom: 16,
 		center: localLatLng,
 		zoomControl: false
-	}).setView([-9.41192,-40.50267],16);
+	}).setView([-9.41192,-40.50267],16)
+  .on('popupopen', function(e) {
+    var px = map.project(e.popup._latlng);
+    px.y -= e.popup._container.clientHeight/2;
+    map.panTo( map.unproject(px),{animate: true} );
+  });
+
 
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>',
@@ -144,7 +150,7 @@ function setGeoJSONtoMap () {
         iconUrl: 'img/icon.' + feature.properties.category + '.png',
         iconSize: [25, 41],
         iconAnchor: [12, 41],
-        popupAnchor: [-3, -76],
+        popupAnchor: [0, -45],
         shadowUrl: 'img/marker-shadow.png',
         shadowSize: [41, 41],
         shadowAnchor: [13, 41]
@@ -154,9 +160,13 @@ function setGeoJSONtoMap () {
       marker.bindPopup(
         feature.properties.popupContent, {
           minHeight: feature.properties.width,
-          minWidth: feature.properties.width
+          minWidth: feature.properties.width,
+          autoPan: true,
+          autoClose: true
         }
-      );
+      ).on ('click', function () {
+        console.log("Abriu");
+      });
       return marker;
     }
   });
