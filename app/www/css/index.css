@@ -21,6 +21,54 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
 	font-family: 'San_Francisco',Sans-Serif !important;
 }
 
+
+#menu {
+	-webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#menu > ul {
+	visibility: hidden;
+}
+
+#menu.opened-menu > ul {
+	visibility: visible;
+	display: block;
+	margin-top: 3rem;
+}
+
+.opened-menu {
+	background-color: #ffffff;
+	width: 12rem;
+	min-height: 12rem;
+	border-radius: 0.5rem;
+
+	position: fixed;
+	top: 0.9rem;
+	left: 1rem;
+	padding: 1rem;
+}
+
+.be-btn-menu {
+	-webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#menu.opened-menu > .be-btn-menu {
+	transform: rotate(90deg);
+	left: 12.4rem;
+}
+
+#menu > .be-btn-menu {
+	height: 2.5rem;
+	position: fixed;
+	top: 1rem;
+	left: 1rem;
+}
 .ui-header, .ui-footer {
 	background: url('images/footer.png') center no-repeat;
 	background-size: contain;
@@ -34,15 +82,8 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
 	background-color: transparent !important;
 }
 
-.be-btn-menu{
-	height: 6%;
-	position: fixed;
-	top: 1rem;
-	left: 1rem;
-}
-
 .be-btn-location{
-	height: 6%;
+	height: 2.5rem;
 	position: fixed;
 	top: 1rem;
 	right: 1rem;

@@ -18,7 +18,17 @@ $(document).on("mobileinit", function () {
     $.mobile.loader.prototype.options.html = '<i class="fa fa-pulse fa-spin fa-5x fa-fw margin-bottom"></i>';
 
     initLocalBase();
+
+    $('.be-btn-location').on('click', setMapToUserLocation);
+
+    $('.be-btn-menu').on('click', menuToggle);
 });
+
+//Remover
+initLocalBase();
+$('.be-btn-location').on('click', setMapToUserLocation);
+$('.be-btn-menu').on('click', menuToggle);
+//end remover
 
 $(document).on("pagecontainerbeforechange", function (event, ui) {
     //var toPage = $(ui.toPage).attr('id');
@@ -32,16 +42,15 @@ $(document).on("pagecontainerchange", function (event, ui) {
   var toPage = $(ui.toPage).attr('id');
   var prevPage = $(ui.prevPage).attr('id');
 
-  if (toPage === 'mapa')
-      criarMapa();
-      getGeoJSON();
-  if (prevPage === 'mapa')
-    destruirMapa();
-});
+  $('#menu').removeClass('opened-menu');
 
-function centerToUser () {
-  //TODO Centralizar mapa na posição do usuário
-}
+  if (toPage === 'mapa') {
+    criarMapa();
+    getGeoJSON();
+  } else if (prevPage === 'mapa'){
+    destruirMapa();
+  }
+});
 
 function swapShowTur () {
   showTur = !showTur;
@@ -84,7 +93,7 @@ function criarMapa() {
 
 
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>',
+    //attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>',
     maxZoom: 18,
     id: 'rogeriobastos.08164jab',
     accessToken: 'pk.eyJ1Ijoicm9nZXJpb2Jhc3RvcyIsImEiOiJjaW9vZjBka2UwMDVsdHNrbTc5aDRwMW9hIn0.E8itic_IW42gcgLO12oLJw'
@@ -240,4 +249,10 @@ function setMapToUserLocation () {
   );
 }
 
-$('.be-btn-location').on('click', setMapToUserLocation);
+function menuToggle () {
+  if ( $('#menu').hasClass('opened-menu') ) {
+    $('#menu').removeClass('opened-menu');
+  } else {
+    $('#menu').addClass('opened-menu');
+  }
+}
