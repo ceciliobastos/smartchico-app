@@ -84,6 +84,8 @@ function criarMapa() {
 
   markersClusters = L.markerClusterGroup();
   map.addLayer(markersClusters);
+
+  setMapToUserLocation ();
 }
 
 /**
