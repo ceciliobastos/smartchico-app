@@ -5,9 +5,6 @@ var lastPosition = [-9.41192,-40.50267];
 var localGeoJSON = false;
 
 var markersClusters = false;
-var showTur = true;
-var showCult = true;
-var showArt = true;
 var map = false;
 var watchId = false;
 
@@ -22,12 +19,16 @@ $(document).on("mobileinit", function () {
     $('.be-btn-location').on('click', setMapToUserLocation);
 
     $('.be-btn-menu').on('click', menuToggle);
+
+    $('#fTurismo, #fCultura, #fArte').on('change', setGeoJSONtoMap);
 });
 
 //Remover
 initLocalBase();
 $('.be-btn-location').on('click', setMapToUserLocation);
 $('.be-btn-menu').on('click', menuToggle);
+
+$('#fTurismo, #fCultura, #fArte').on('change', setGeoJSONtoMap);
 //end remover
 
 $(document).on("pagecontainerbeforechange", function (event, ui) {
@@ -51,24 +52,6 @@ $(document).on("pagecontainerchange", function (event, ui) {
     destruirMapa();
   }
 });
-
-function swapShowTur () {
-  showTur = !showTur;
-  setGeoJSONtoMap();
-  return showTur;
-}
-
-function swapShowArt () {
-  showArt = !showArt;
-  setGeoJSONtoMap();
-  return showArt;
-}
-
-function swapShowCult () {
-  showCult = !showCult;
-  setGeoJSONtoMap();
-  return showCult;
-}
 
 /**
  * Cria o mapa em #mapa .mapView
@@ -134,11 +117,9 @@ function setGeoJSONtoMap () {
 
   var mergedFeatures = [];
 
-  if (showCult) mergedFeatures = mergedFeatures.concat(localGeoJSON.cultura);
-
-  if (showArt) mergedFeatures = mergedFeatures.concat(localGeoJSON.arte);
-
-  if (showTur) mergedFeatures = mergedFeatures.concat(localGeoJSON.turismo);
+  if ($('#fCultura').is(':checked')) mergedFeatures = mergedFeatures.concat(localGeoJSON.cultura);
+  if ($('#fArte').is(':checked')) mergedFeatures = mergedFeatures.concat(localGeoJSON.arte);
+  if ($('#fTurismo').is(':checked')) mergedFeatures = mergedFeatures.concat(localGeoJSON.turismo);
 
   var markers = L.geoJson(mergedFeatures, {
     pointToLayer: function(feature, latlng) {
@@ -166,11 +147,9 @@ function setGeoJSONtoMap () {
     }
   });
 
-  //map.removeLayer(markersClusters);
   markersClusters.clearLayers();
-
+  //map.removeLayer(markersClusters);
   //markersClusters = L.markerClusterGroup();
-
   markersClusters.addLayer(markers);
   //map.addLayer(markersClusters);
 }

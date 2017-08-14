@@ -29,20 +29,43 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
   transition: all 0.5s ease;
 }
 
-#menu > ul {
+#menu > div, #menu h3 {
 	visibility: hidden;
 }
 
-#menu.opened-menu > ul {
+#menu.opened-menu > div, #menu.opened-menu h3 {
 	visibility: visible;
 	display: block;
-	margin-top: 3rem;
+}
+
+#menu label {
+	padding-top: 0.8rem;
+	padding-left: 0.8rem;
+}
+
+#menu h3 a {
+	text-decoration: none;
+	color: #8f9bb3;
+}
+
+#menu div.ui-flipswitch {
+	border-width: 0.5px !important;
+	border-radius: 15px !important;
+}
+
+#menu a.ui-flipswitch-on {
+	box-shadow: none !important;
+	border-radius: 50% !important;
+	border-width: 0.5px !important;
+}
+
+#menu .ui-shadow {
+	text-shadow: none !important;
 }
 
 .opened-menu {
 	background-color: #ffffff;
-	width: 12rem;
-	min-height: 12rem;
+	width: 13rem;
 	border-radius: 0.5rem;
 
 	position: fixed;
@@ -60,7 +83,7 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
 
 #menu.opened-menu > .be-btn-menu {
 	transform: rotate(90deg);
-	left: 12.4rem;
+	left: 13.4rem;
 }
 
 #menu > .be-btn-menu {
@@ -126,3 +149,5 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
 .marker-cluster-large,.marker-cluster-huge div {
 	background-color: #ffffff;
 }
+
+.leaflet-control-attribution { visibility: hidden; }

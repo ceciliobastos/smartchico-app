@@ -28,11 +28,21 @@
           <div role="main" class="ui-content mapView" style="display: inline;"></div>
           <div id="menu">
             <img class="be-btn-menu" src="css/images/btn-menu.png" alt="">
-            <ul>
-              <li>Local para o menu</li>
-              <li>colocar aqui</li>
-              <li><a href="#sobre">Sobre</a></li>
-            </ul>
+            <h3>Mostrar:</h3>
+            <div class="ui-grid-a">
+                <label for="fTurismo" class="ui-block-a">Turismo:</label>
+                <input checked data-theme="c" class="ui-block-b" data-role="flipswitch" id="fTurismo" data-on-text="Sim" data-off-text="Não" data-wrapper-class="custom-size-flipswitch" type="checkbox">
+            </div>
+            <div class="ui-grid-a">
+                <label for="fCultura" class="ui-block-a">Cultura:</label>
+                <input checked data-theme="c" class="ui-block-b" data-role="flipswitch" id="fCultura" data-on-text="Sim" data-off-text="Não" data-wrapper-class="custom-size-flipswitch" type="checkbox">
+            </div>
+            <div class="ui-grid-a">
+                <label for="fArte" class="ui-block-a">Arte:</label>
+                <input checked data-theme="c" class="ui-block-b" data-role="flipswitch" id="fArte" data-on-text="Sim" data-off-text="Não" data-wrapper-class="custom-size-flipswitch" type="checkbox">
+            </div>
+            <br>
+            <h3><a href="#sobre">Sobre o App</a></h3>
           </div>
           <img class="be-btn-location" src="css/images/btn-location.png" alt="">
       </section>
@@ -44,8 +54,26 @@
           </header>
           <div role="main" class="ui-content">
               <h2>Sobre o SmartChico</h2>
-              xoxoxoxoxox
-              oxoxoxoxox
+              <p>xoxoxoxoxox</p>
+              <p>oxoxoxoxox</p>
+              <h2>Código fonte</h2>
+              <p>
+                Este é aplicativo é um software livre licenciado sob a GPLv3, e seu
+                código fonte está disponível no GitHub e pode ser encontrado neste
+                endereço: <a href="https://github.com/bigeyessolution/SmartChico">
+                https://github.com/bigeyessolution/SmartChico</a>.
+              </p>
+              <h2>Licenças de softwares e serviços</h2>
+              <p>
+                Este aplicativo foi desenvolvido com base nos seguintes software
+                livres e serviços:
+              </p>
+              <ul>
+                <li>JQuery 2.2.3;</li>
+                <li>JQueryMobile 1.4.5;</li>
+                <li>LeafLetJS 1.0.0-rc1;</li>
+                <li>LeafLetJS.MarkerCluster;</li>
+              </ul>
           </div>
       </section>
 
