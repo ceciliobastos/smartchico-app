@@ -127,8 +127,8 @@ function setGeoJSONtoMap () {
     pointToLayer: function(feature, latlng) {
       var icon = L.icon ({
         iconUrl: 'img/icon.' + feature.properties.category + '.png',
-        iconSize: [35, 48],
-        iconAnchor: [17.5, 48],
+        iconSize: [35, 55],
+        iconAnchor: [17.5, 55],
         popupAnchor: [0, -55]
         /*shadowUrl: 'img/marker-shadow.png',
         shadowSize: [35, 13],
