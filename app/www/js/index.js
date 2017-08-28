@@ -4,6 +4,7 @@ var geojsonbase = 'https://raw.githubusercontent.com/bigeyessolution/SmartChico/
 var lastPosition = [-9.41192,-40.50267];
 var localGeoJSON = false;
 
+var userMarker = false;
 var markersClusters = false;
 var map = false;
 var watchId = false;
@@ -207,15 +208,35 @@ function initLocalBase () {
     false;
 }
 
+function setUserPin (pos) {
+  var latlng = L.latLng(pos.coords.latitude,pos.coords.longitude);
+
+  console.log(JSON.stringify(pos));
+
+  if (userMarker == false) {
+    var icon = L.icon ({
+      iconUrl: 'img/icon.user.png',
+      iconSize: [35, 55],
+      iconAnchor: [17.5, 55],
+      popupAnchor: [0, -55]
+    });
+
+    userMarker = L.marker(latlng, {icon: icon});
+
+    userMarker.addTo(map);
+  } else {
+    userMarker.setLatLng(latlng);
+  }
+}
+
 function __setMapToUserLocation (pos) {
-  map.panTo(
-    L.latLng(pos.coords.latitude,pos.coords.longitude),
-    { animate: true }
-  );
-  console.log ('geolocation: ' +
-    JSON.stringify(pos.coords.latitude) +
-    ',' + pos.coords.longitude
-  );
+  if (pos) {
+    setUserPin(pos);
+    map.panTo(
+      L.latLng(pos.coords.latitude,pos.coords.longitude),
+      { animate: true }
+    );
+  }
 }
 
 function __setMapToUserLocationError (error) {
