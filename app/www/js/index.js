@@ -216,9 +216,8 @@ function setUserPin (pos) {
   if (userMarker == false) {
     var icon = L.icon ({
       iconUrl: 'img/icon.user.png',
-      //iconSize: [35, 55],
-      iconSize: [106, 83],
-      iconAnchor: [53, 83]
+      iconSize: [55, 55],
+      iconAnchor: [27, 55]
     });
 
     userMarker = L.marker(latlng, {icon: icon});
