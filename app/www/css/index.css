@@ -21,6 +21,9 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
 	font-family: 'San_Francisco',Sans-Serif !important;
 }
 
+#sobre p {
+  text-align: justify;
+}
 
 #menu {
 	-webkit-transition: all 0.5s ease;
