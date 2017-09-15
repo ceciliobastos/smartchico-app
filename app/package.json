@@ -22,6 +22,9 @@
             "cordova-plugin-statusbar": {},
             "cordova-plugin-whitelist": {},
             "cordova-plugin-geolocation": {}
-        }
+        },
+        "platforms": [
+            "android"
+        ]
     }
 }
