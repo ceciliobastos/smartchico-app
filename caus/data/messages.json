@@ -1,0 +1,12 @@
+[
+	{
+		"msgid": 0,
+		"message": "Seja bem vindo ao SmartChico!",
+		"position": false
+	},
+	{
+		"msgid": 1,
+		"message": "O SmartChico é uma iniciativa do Projeto de Cartografia Urbanográfica do Sertão do São Francisco (CAUS), da Uneb. Clique no comentário para saber onde fica!",
+		"position": [0,0]
+	}
+]
