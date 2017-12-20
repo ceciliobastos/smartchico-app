@@ -8,5 +8,10 @@
 		"msgid": 1,
 		"message": "O SmartChico é uma iniciativa do Projeto de Cartografia Urbanográfica do Sertão do São Francisco (CAUS), da Uneb. Clique no comentário para saber onde fica!",
 		"position": [0,0]
-	}
+	},
+     {
+     "msgid": 2,
+     "message": "Há arte em todos os lugares, até mesmos nos cantos mais escondidos podemos encontrar a expressão popular. Veja o que encontramos sob a Ponte Presidente Dutra.",
+     "position": [-40.50475, -9.4073]
+     }
 ]
