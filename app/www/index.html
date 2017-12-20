@@ -42,14 +42,14 @@
                 <input checked data-theme="c" class="ui-block-b" data-role="flipswitch" id="fTurismo" data-on-text="" data-off-text="" data-wrapper-class="custom-size-flipswitch" type="checkbox">
             </div>
             <br>
-            <h3><a href="#sobre">Sobre o App</a></h3>
+            <h3><a onclick="$.mobile.changePage('#sobre', { transition: 'slideup' } )">Sobre o App</a></h3>
           </div>
-          <img class="be-btn-location" src="css/images/btn-location.png" alt="">
+           <img class="be-btn-location" src="css/images/btn-location.png" alt="">
       </section>
 
       <section id="sobre" data-role="page" data-tile="Sobre">
           <header data-role="header">
-              <a href="#mapa" data-transition="slideup" class="be-btn-back">&nbsp;</a>
+              <a onclick="$.mobile.changePage('#mapa', { transition: 'slideup', referse: true } )" class="be-btn-back">&nbsp;</a>
               <h1></h1>
           </header>
           <div role="main" class="ui-content">
@@ -123,7 +123,9 @@
           </div>
       </section>
 
-      <script type="text/javascript" src="cordova.js"></script>
+      <!--
+       <script type="text/javascript" src="cordova.js"></script>
+      -->
       <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>
