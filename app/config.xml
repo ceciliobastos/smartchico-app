@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.uneb.smartchico" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="br.uneb.smartchico" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>SmartChico</name>
     <description>
 	Aplicativo com a finalidade de promover a cultura do Território de Identidade Sertão do São Francisco, que compreende os municípios baianos de Juazeiro, Curaçá, Sobradinho, Casa Nova, Canudos, Uauá, Campo Alegre de Lourdes, Sento Sé, Pilão Arcado e Remanso. Busca se alinhar a propósitos críticos interrelacionados com uma melhor compreensão e fomento das cidades inteligentes, cuja infraestrutura incorpora redes e serviços de computadores, que são consumidos pelos usuários emmobilidade pelo espaço urbano. Para coleta, tratamento e divulgação das informações, são utilizados procedimentos com mídias locativas e produção de conteúdo informativo para bases de dados abertas. Os dados são importados para o aplicativo dedicado, contribuindo para aumentar uma divulgação fundamentada em aspectos ligados à cultura regional, como urbanografia (arte de rua, esculturas, monumentos, lendas urbanas etc), equipamentos/serviços culturais públicos, turismo (serras, parques, cachoeiras etc).
@@ -26,8 +26,9 @@
     <preference name="FadeSplashScreenDuration" value="500" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <access origin="*" />
-    <access origin="https://api.tiles.mapbox.com/v4/*" />
-    <access origin="https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/geojson.json" />
+    <access origin="http://caus.eco.br/*" />
+    <access origin="https://api.tiles.mapbox.com/*" />
+    <access origin="https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -88,11 +89,12 @@
         <icon height="50" src="res/ios/icon-50.png" width="50" />
         <icon height="100" src="res/ios/icon-50@2x.png" width="100" />
     </platform>
-    <engine name="android" spec="^6.2.3" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <plugin name="cordova-plugin-statusbar" />
+    <plugin name="cordova-plugin-whitelist" />
+    <plugin name="cordova-plugin-geolocation" />
+    <plugin name="cordova-plugin-dialogs" />
+    <plugin name="cordova-plugin-device" />
+    <engine name="android" spec="^6.4.0" />
     <engine name="ios" spec="^4.5.4" />
-    <plugin name="cordova-plugin-splashscreen" spec="^4.1.0" />
-    <plugin name="cordova-plugin-statusbar" spec="^2.3.0" />
-    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
-    <plugin name="cordova-plugin-geolocation" spec="^2.4.3" />
-    <plugin name="cordova-plugin-dialogs" spec="^1.3.4" />
 </widget>

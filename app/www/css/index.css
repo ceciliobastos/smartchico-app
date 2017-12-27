@@ -156,17 +156,17 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
 .leaflet-control-attribution { visibility: hidden; }
 
 .geoArte .ui-flipswitch-active{
-	background-color: #fbd117ff !important;
+	background-color: #fbd117 !important;
 	border: none !important;
 }
 
 .geoCult .ui-flipswitch-active{
-	background-color: #f36327ff !important;
+	background-color: #f36327 !important;
 	border: none !important;
 }
 
 .geoTur .ui-flipswitch-active{
-	background-color: #47c2ceff !important;
+	background-color: #47c2ce !important;
 	border: none !important;
 }
 
