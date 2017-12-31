@@ -139,6 +139,11 @@ function destruirMapa() {
 
 $("#mpanel").trigger("updatelayout");
 
+/**
+ * Exibe o aviso de carregamento.
+ * @author laudivan
+ * @returns
+ */
 function showLoading() {
 	$.mobile.loading("show", {
 		text: "foo",
@@ -148,10 +153,20 @@ function showLoading() {
 	});
 }
 
+/**
+ * Esconde o aviso de carregamento.
+ * @author laudivan
+ * @returns
+ */
 function hideLoading() {
 	$.mobile.loading("hide");
 }
 
+/**
+ * Popula o mapa com os pontos obtidos das geotags.
+ * @author laudivan
+ * @returns
+ */
 function setGeoJSONtoMap () {
 	if(map === false || localGeoJSON === false) return;
 
@@ -190,12 +205,15 @@ function setGeoJSONtoMap () {
 	});
 
 	markersClusters.clearLayers();
-	//map.removeLayer(markersClusters);
-	//markersClusters = L.markerClusterGroup();
 	markersClusters.addLayer(markers);
-	//map.addLayer(markersClusters);
 }
 
+/**
+ * Exibe a aba selecionada no popup de algum ponto no mapa.
+ * @author laudivan
+ * @param tabName Nome (Id) da aba
+ * @returns
+ */
 function showTab (tabName) {
 	$('.tabContent.activedTab').fadeOut();
 	$('.activedTab').removeClass ('activedTab');
@@ -204,6 +222,11 @@ function showTab (tabName) {
 	$('.tabContent.activedTab').fadeIn();
 }
 
+/**
+ * Obtém as informações das geotags a apartir da url em geojsonbase.
+ * @author laudivan
+ * @returns
+ */
 function getGeoJSON () {
 	var featuresbase = {
 		release: 0,
@@ -258,7 +281,6 @@ function getGeoJSON () {
 	}
 
 	function _cacheGeoJSON (data) {
-		//@todo LER O CAMPO release DA BASE LOCAL e COMPARAR COM O ONLINE
 		if(localGeoJSON && localGeoJSON.release > data.release) return true;
 
 		featuresbase.release = data.release;
@@ -272,6 +294,11 @@ function getGeoJSON () {
 	$.getJSON(geojsonbase, _cacheGeoJSON).done(setGeoJSONtoMap).fail(setGeoJSONtoMap);
 }
 
+/**
+ * Obtém as mensagens ao usuários disponibilizadas em msgsbase.
+ * @author laudivan
+ * @returns
+ */
 function getMsg () {
 	if (isWeb) return;
 
@@ -290,6 +317,12 @@ function getMsg () {
 	});
 }
 
+/**
+ * Move o mapa para o ponto em pos e para de seguir a localização do usuário.
+ * @author laudivan
+ * @param pos array contendo o a longitude e latitude do ponto para o qual que mover.
+ * @returns
+ */
 function goToPos (pos) {
 	$.when (function () {
 		if (page !== 'mapa') $.mobile.changePage ('#mapa');
@@ -300,6 +333,12 @@ function goToPos (pos) {
 
 }
 
+/**
+ * Exibe uma mensagem obtida por getMsg().
+ * @author laudivan
+ * @param msg
+ * @returns
+ */
 function showMsg ( msg ) {
 	navigator.notification.beep(1);
 
@@ -321,12 +360,23 @@ function showMsg ( msg ) {
 	localStorage.setItem ('lastMsgId', msg.msgid);
 }
 
+/**
+ * Inicializa a variável localGeoJSON
+ * @author laudivan
+ * @returns
+ */
 function initLocalBase () {
 	localGeoJSON = localStorage.getItem('geojsonbase') ?
 		JSON.parse(localStorage.getItem('geojsonbase')) :
 		false;
 }
 
+/**
+ * Cria o pin do usuário.
+ * @author laudivan
+ * @param pos posição do usuário.
+ * @returns
+ */
 function setUserPin (pos) {
 	var latlng = L.latLng(pos.coords.latitude,pos.coords.longitude);
 
@@ -347,6 +397,12 @@ function setUserPin (pos) {
 	}
 }
 
+/**
+ * Move o mapa para a localização do usuário e followUser estiver setado para True.
+ * @author laudivan
+ * @param pos posição do usuário.
+ * @returns
+ */
 function __setMapToUserLocation (pos) {
 	if (map === false) return;
 	if (pos) {
@@ -360,10 +416,21 @@ function __setMapToUserLocation (pos) {
 	}
 }
 
+/**
+ * Exibe erros de localização no console.
+ * @author laudivan
+ * @param error
+ * @returns
+ */
 function __setMapToUserLocationError (error) {
 	console.log('code: ' + error.code + '\nmessage: ' + error.message + '\n');
 }
 
+/**
+ * Obtém a localização do usuário e passa a __setMapToUserLocation() para que mapa o siga.
+ * @author laudivan
+ * @returns
+ */
 function setMapToUserLocation () {
 	navigator.geolocation.getCurrentPosition(
 		__setMapToUserLocation,
@@ -372,6 +439,11 @@ function setMapToUserLocation () {
 	);
 }
 
+/**
+ * Inicia o acompanhamento da localização do usuário.
+ * @author laudivan
+ * @returns
+ */
 function initGeoLocationWatch () {
 	if (watchId === false) {
 		watchId = navigator.geolocation.watchPosition(
@@ -382,6 +454,11 @@ function initGeoLocationWatch () {
 	}
 }
 
+/**
+ * Interrompe o acompanhamento da localização do usuário.
+ * @author laudivan
+ * @returns
+ */
 function stopGeoLocationWatch () {
 	if (watchId !== false) {
 		navigator.geolocation.clearWatch(watchId);
@@ -389,6 +466,11 @@ function stopGeoLocationWatch () {
 	}
 }
 
+/**
+ * Exibe ou esconde o menu da aplicação.
+ * @author laudivan
+ * @returns
+ */
 function menuToggle () {
 	if ( $('#menu').hasClass('opened-menu') ) {
 		$('#menu').removeClass('opened-menu');
@@ -397,6 +479,13 @@ function menuToggle () {
 	}
 }
 
+/**
+ * Habilita/desabilita o acompanhamento da localização do usuário
+ * e esconde ou exibe o botão relativo a ação no mapa.
+ * @author laudivan 
+ * @param status
+ * @returns
+ */
 function setFollowUserPosition(status){
 	followUser = status;
 	if(status) {
@@ -406,12 +495,22 @@ function setFollowUserPosition(status){
 	}
 }
 
+/**
+ * Habilita a atualização periódica das geotags.
+ * @author laudivan
+ * @returns
+ */
 function watchGeoTag () {
 	if (watchGeoTagsId !== false) return;
 
 	watchGeoTagsId = setInterval (getGeoJSON, 3600000); //1 hour
 }
 
+/**
+ * Desabilita a atualização periódica das geotags.
+ * @author laudivan
+ * @returns
+ */
 function stopWatchGeoTag () {
 	if (watchGeoTagsId === false) return;
 
@@ -420,12 +519,22 @@ function stopWatchGeoTag () {
 	watchGeoTagsId = false;
 }
 
+/**
+ * Habilita o acompanhamento das mensagens ao usuário.
+ * @author laudivan
+ * @returns
+ */
 function watchMsg () {
 	if (watchMsgId !== false ) return;
 
 	watchMsgId = setInterval(getMsg, 600000); //10 minutes
 }
 
+/**
+ * desabilita o acompanhamento das mensagens ao usuário.
+ * @author laudivan
+ * @returns
+ */
 function stopWatchMsg() {
 	if (watchMsgId === false ) return;
 
@@ -434,12 +543,22 @@ function stopWatchMsg() {
 	watchMsgId = false;
 }
 
+/**
+ * Função chamada quando a aplicação é trazida para primeiro plano nos dispositivos móveis.
+ * @author laudivan
+ * @returns
+ */
 function onResume () {
 	if (page == 'mapa') initGeoLocationWatch ();
 
 	watchMsg();
 }
 
+/**
+ * Função chamada quando a aplicação passa a segundo plano nos dispositivos móveis.
+ * @author laudivan
+ * @returns
+ */
 function onPause () {
 	if (page == 'mapa') stopGeoLocationWatch ();
 
