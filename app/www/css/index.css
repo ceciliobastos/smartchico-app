@@ -175,3 +175,48 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
 	width: 30px !important;
 }
 
+.leaflet-popup-content h3 {
+	text-align: center;
+}
+
+.leaflet-popup-content p,
+.leaflet-popup-content h3{
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+}
+
+/* Criando tabbar */
+.tabContent {
+	
+}
+
+.tabContent.activedTab {
+}
+
+.tabbar {
+	display: block;
+	border-bottom: 2px solid #d8cabc;
+}
+
+.tabbar button {
+	background-color: #e8e0d8;
+	color: #939393;
+	border: none;
+	margin: 0 0 0 0.2rem;
+	padding: 0.5rem 0.8rem;
+}
+
+.tabbar button:hover, .tabbar button:active {
+	background-color: #e7dfd6;
+} 
+
+.tabbar button.activedTab {
+	background-color: #d8cabc;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+div.activedTab {
+	
+}
+

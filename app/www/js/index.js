@@ -1,4 +1,4 @@
-//TODO verificar porque não está gravando localStorage
+
 var geojsonbase = 'https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/geojson.json';
 var msgsbase = 'https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/messages.json';
 var lastPosition = [-9.41192,-40.50267];
@@ -172,7 +172,10 @@ function setGeoJSONtoMap () {
 
 			var marker = L.marker(latlng, {icon: icon});
 
-			marker.on('popupopen', function(){ setFollowUserPosition(false); } );
+			marker.on('popupopen', function(){ 
+				setFollowUserPosition(false); 
+				//$( "#popUpTabs" ).tabs();
+			} );
 
 			marker.bindPopup(
 				feature.properties.popupContent, {
@@ -193,6 +196,14 @@ function setGeoJSONtoMap () {
 	//map.addLayer(markersClusters);
 }
 
+function showTab (tabName) {
+	$('.tabContent.activedTab').fadeOut();
+	$('.activedTab').removeClass ('activedTab');
+	
+	$('#btn-' + tabName + ', #'+tabName).addClass('activedTab');
+	$('.tabContent.activedTab').fadeIn();
+}
+
 function getGeoJSON () {
 	var featuresbase = {
 		release: 0,
@@ -202,12 +213,35 @@ function getGeoJSON () {
 	};
 
 	function _geoWrapper(key,feature) {
-		feature.properties.popupContent =
-			(feature.properties.description ? feature.properties.description + '<br>':'') +
-			(feature.properties.image ? '<img src="' + feature.properties.image + '">' : '') +
-			(feature.properties.sound ? '<iframe src="' + feature.properties.sound + '"></iframe>' : '') +
-			(feature.properties.caption ? '<br><h3>' + feature.properties.caption + '<h3>' : '')
-		;
+		var flagActive = 'activedTab';
+		var nTabs = 0;
+		var tabs = '<div class="tabbar">';
+		var caption = feature.properties.caption ? '<h3>' + feature.properties.caption + '</h3>' : '';
+		var tabsContents = ''; 
+		
+		if (feature.properties.image) {
+			nTabs ++;
+			tabs += '<button id="btn-picture" onclick="showTab(' + "'picture'" + ')" class="' + flagActive + '">Foto</button>';
+			tabsContents += '<div id="picture" class="tabContent ' + flagActive + '">' + caption + '<p>' + '<img src="' + feature.properties.image + '"></p></div>';
+			flagActive = '';
+		}
+		
+		if(feature.properties.sound) {
+			nTabs++;
+			tabs += '<button id="btn-audio" onclick="showTab(' + "'audio'" + ')" class="' + flagActive + '">Áudio</button>';
+			tabsContents += '<div id="audio" class="tabContent ' + flagActive + '">' + caption + '<p>' + '<iframe src="' + feature.properties.sound + '"></iframe></p></div>';
+			flagActive = '';
+		}
+		
+		if (feature.properties.description) {
+			nTabs++;
+			tabs += '<button id="btn-description" onclick="showTab(' + "'description'" + ')" class="' + flagActive + '">Descrição</button>';
+			tabsContents += '<div id="description" class="tabContent ' + flagActive + '">' + caption + '<p>' + feature.properties.description + '</p></div>';
+		}
+		
+		tabs += '</div>'
+		
+		feature.properties.popupContent = '<div">' + (nTabs > 1 ? tabs : '') + tabsContents + '</div>'; 
 
 		switch (feature.properties.category) {
 			case 'turismo':
