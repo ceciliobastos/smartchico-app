@@ -18,11 +18,11 @@ var isWeb = true;
 
 document.addEventListener("deviceready", function () {
 	watchMsg();
-	
+
 	document.addEventListener("resume", onResume, false);
 
 	document.addEventListener("pause", onPause, false);
-	
+
 	$('.be-btn-location').on('click', function(){
 		setFollowUserPosition(true);
 		map.setZoom(16);
@@ -31,7 +31,7 @@ document.addEventListener("deviceready", function () {
 	initGeoLocationWatch();
 
 	setFollowUserPosition(true);
-	
+
 	if (!localStorage.getItem('lastMsgId')) {
 		setTimeout(getMsg, 15000);
 	}
@@ -44,9 +44,9 @@ $(function () {
 	$.mobile.loader.prototype.options.textVisible = false;
 	$.mobile.loader.prototype.options.theme = "a";
 	$.mobile.loader.prototype.options.html = '<i class="fa fa-pulse fa-spin fa-5x fa-fw margin-bottom"></i>';
-	
+
 	initLocalBase();
-	
+
 	$('.be-btn-menu').on('click', menuToggle);
 
 	$('#fTurismo, #fCultura, #fArte').on('change', setGeoJSONtoMap);
@@ -187,8 +187,8 @@ function setGeoJSONtoMap () {
 
 			var marker = L.marker(latlng, {icon: icon});
 
-			marker.on('popupopen', function(){ 
-				setFollowUserPosition(false); 
+			marker.on('popupopen', function(){
+				setFollowUserPosition(false);
 				//$( "#popUpTabs" ).tabs();
 			} );
 
@@ -217,7 +217,7 @@ function setGeoJSONtoMap () {
 function showTab (tabName) {
 	$('.tabContent.activedTab').fadeOut();
 	$('.activedTab').removeClass ('activedTab');
-	
+
 	$('#btn-' + tabName + ', #'+tabName).addClass('activedTab');
 	$('.tabContent.activedTab').fadeIn();
 }
@@ -240,31 +240,31 @@ function getGeoJSON () {
 		var nTabs = 0;
 		var tabs = '<div class="tabbar">';
 		var caption = feature.properties.caption ? '<h3>' + feature.properties.caption + '</h3>' : '';
-		var tabsContents = ''; 
-		
+		var tabsContents = '';
+
 		if (feature.properties.image) {
 			nTabs ++;
 			tabs += '<button id="btn-picture" onclick="showTab(' + "'picture'" + ')" class="' + flagActive + '">Foto</button>';
 			tabsContents += '<div id="picture" class="tabContent ' + flagActive + '">' + caption + '<p>' + '<img src="' + feature.properties.image + '"></p></div>';
 			flagActive = '';
 		}
-		
+
 		if(feature.properties.sound) {
 			nTabs++;
 			tabs += '<button id="btn-audio" onclick="showTab(' + "'audio'" + ')" class="' + flagActive + '">Áudio</button>';
 			tabsContents += '<div id="audio" class="tabContent ' + flagActive + '">' + caption + '<p>' + '<iframe src="' + feature.properties.sound + '"></iframe></p></div>';
 			flagActive = '';
 		}
-		
+
 		if (feature.properties.description) {
 			nTabs++;
 			tabs += '<button id="btn-description" onclick="showTab(' + "'description'" + ')" class="' + flagActive + '">Descrição</button>';
 			tabsContents += '<div id="description" class="tabContent ' + flagActive + '">' + caption + '<p>' + feature.properties.description + '</p></div>';
 		}
-		
+
 		tabs += '</div>'
-		
-		feature.properties.popupContent = '<div">' + (nTabs > 1 ? tabs : '') + tabsContents + '</div>'; 
+
+		feature.properties.popupContent = '<div">' + (nTabs > 1 ? tabs : '') + tabsContents + '</div>';
 
 		switch (feature.properties.category) {
 			case 'turismo':
@@ -302,14 +302,21 @@ function getGeoJSON () {
 function getMsg () {
 	if (isWeb) return;
 
+	var lastMsgTime = localStorage.getItem('lastMsgTime');
+	lastMsgTime = lastMsgTime ? parseInt(lastMsgTime) : 0;
+
+	timeVar = (new Date()).getTime() - lastMsgTime;
+
+	if (timeVar <= 600000) return; //Impede que seja procurada uma mensagem se o tempo foi curto.
+
 	$.getJSON (msgsbase, function(msgs) {
 		var lastMsgId = localStorage.getItem('lastMsgId');
 
-	lastMsgId = lastMsgId ? lastMsgId : -1;
+		lastMsgId = lastMsgId ? parseInt(lastMsgId) : -1;
 
 		$.each(msgs, function (index, msg) {
 			if (lastMsgId >= msg.msgid) return true;
-			
+
 			showMsg ( msg );
 
 			return false;
@@ -347,17 +354,18 @@ function showMsg ( msg ) {
 	title = (msg.position ? 'Dica' : 'Mensagem' ) + ' do CAUS';
 
 	navigator.notification.confirm(
-		msg.message, 
+		msg.message,
 		function (btnIndex) {
 			if (btnIndex == 2) {
 				goToPos (msg.position);
 			}
-		}, 
+		},
 		title,
 		buttons
 	);
 
 	localStorage.setItem ('lastMsgId', msg.msgid);
+	localStorage.setItem ('lastMsgTime', (new Date()).getTime());
 }
 
 /**
@@ -482,7 +490,7 @@ function menuToggle () {
 /**
  * Habilita/desabilita o acompanhamento da localização do usuário
  * e esconde ou exibe o botão relativo a ação no mapa.
- * @author laudivan 
+ * @author laudivan
  * @param status
  * @returns
  */
@@ -527,7 +535,7 @@ function stopWatchGeoTag () {
 function watchMsg () {
 	if (watchMsgId !== false ) return;
 
-	watchMsgId = setInterval(getMsg, 600000); //10 minutes
+	watchMsgId = setInterval(getMsg, 3000);
 }
 
 /**
