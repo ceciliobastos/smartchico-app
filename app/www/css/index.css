@@ -186,11 +186,13 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
 }
 
 /* Criando tabbar */
-.tabContent {
-	
+.tabContent:not(.activedTab){
+	visibility: hidden;
+  height: 0;
 }
 
 .tabContent.activedTab {
+  visibility: visible;
 }
 
 .tabbar {
@@ -208,7 +210,7 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
 
 .tabbar button:hover, .tabbar button:active {
 	background-color: #e7dfd6;
-} 
+}
 
 .tabbar button.activedTab {
 	background-color: #d8cabc;
@@ -217,6 +219,5 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
 }
 
 div.activedTab {
-	
-}
 
+}
