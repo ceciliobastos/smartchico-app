@@ -349,15 +349,18 @@ function goToPos (pos) {
 function showMsg ( msg ) {
 	navigator.notification.beep(1);
 
-	buttons = msg.position ? ['OK!', 'Mostre o lugar!']: ['OK!'];
+	buttons = msg.position ? ['OK!', 'Mostre o lugar!']: msg.url ? [ 'OK!', 'Quero saber mais' ] : ['OK!'];
 
 	title = (msg.position ? 'Dica' : 'Mensagem' ) + ' do CAUS';
 
 	navigator.notification.confirm(
 		msg.message,
 		function (btnIndex) {
-			if (btnIndex == 2) {
+			if (btnIndex != 2) return;
+			if (msg.position) {
 				goToPos (msg.position);
+			} else if (msg.url) {
+				//TODO: Ação caso receba uma url
 			}
 		},
 		title,
