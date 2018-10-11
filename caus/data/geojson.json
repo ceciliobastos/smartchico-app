@@ -2945,6 +2945,36 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite197.jpg",
+        "height": "275",
+        "width": "228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-42.06695, -9.67849]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite198.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-42.06680, -9.67044]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "cultura",
         "description": false,
         "caption": "Monumento ao fim do século 20",
