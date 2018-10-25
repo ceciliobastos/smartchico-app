@@ -2957,7 +2957,7 @@
         "coordinates": [-42.06695, -9.67849]
       }
     },
-     {
+    {
       "type": "Feature",
       "properties": {
         "category": "arte",
@@ -2970,6 +2970,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-42.06680, -9.67044]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite199.jpg",
+        "height": "103",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.57386, -9.45761]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "http://caus.eco.br/geoart/images/grafite200.jpg",
+        "height": "275",
+        "width": "203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.57359, -9.45724]
       }
     },
     {
