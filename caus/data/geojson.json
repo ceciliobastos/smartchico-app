@@ -3589,6 +3589,57 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Museu de Remanso",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult22.jpg",
+        "height": "188",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-42.07792, -9.61938]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Museu de Remanso",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult23.jpg",
+        "height": "177",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-42.07792, -9.61938]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Museu de Remanso",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult24.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-42.07792, -9.61938]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
