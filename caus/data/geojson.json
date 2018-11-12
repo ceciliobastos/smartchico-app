@@ -3470,6 +3470,125 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Casa de Farinha",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult15.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.56846, -9.45547]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Casa de Farinha",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult16.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.56846, -9.45547]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Casa de Farinha",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult17.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.56846, -9.45547]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Cemitério de Crianças",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult18.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.57344, -9.45937]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Cemitério de Crianças",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult19.jpg",
+        "height": "161",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.57344, -9.45937]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Quadra de Esportes",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult20.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.57365, -9.45813]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Igreja de Santo Antonio",
+        "video": false,
+        "sound": false,
+        "image": "http://caus.eco.br/geocult/images/cult21.jpg",
+        "height": "275",
+        "width": "263"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.57320, -9.45710]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
