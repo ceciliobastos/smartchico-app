@@ -4192,6 +4192,86 @@
         "type": "Point",
         "coordinates": [-40.87807, -9.50062]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Dunas do Velho Chico",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur33.gif",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-41.14143, -9.41580]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Dunas do Velho Chico",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur34.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-41.14143, -9.41580]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Dunas do Velho Chico",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur35.jpg",
+        "height": "176",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-41.14143, -9.41580]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Dunas do Velho Chico",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur36.jpg",
+        "height": "177",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-41.14143, -9.41580]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Dunas do Velho Chico",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur37.jpg",
+        "height": "189",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-41.14143, -9.41580]
+      }
     }
   ]
 }
