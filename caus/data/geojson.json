@@ -4528,6 +4528,230 @@
         "type": "Point",
         "coordinates": [-42.06680, -9.67044]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Mirante",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur54.jpg",
+        "height": "181",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.81165, -9.40506]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Mirante",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur55.jpg",
+        "height": "176",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.81165, -9.40506]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Mirante",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur56.jpg",
+        "height": "179",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.81165, -9.40506]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Mirante",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur57.jpg",
+        "height": "156",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.81165, -9.40506]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Mirante",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur58.jpg",
+        "height": "176",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.81165, -9.40506]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Mirante",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur59.jpg",
+        "height": "275",
+        "width": "182"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.81165, -9.40506]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Usina Hidrelétrica de Sobradinho",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur60.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.83173, -9.43926]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Mirante",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur61.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.81165, -9.40506]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Mirante",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur62.jpg",
+        "height": "181",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.81165, -9.40506]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Usina Hidrelétrica de Sobradinho",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur63.jpg",
+        "height": "182",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.83173, -9.43926]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Usina Hidrelétrica de Sobradinho",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur64.jpg",
+        "height": "182",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.83173, -9.43926]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Mirante",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur65.jpg",
+        "height": "178",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.81165, -9.40506]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Mirante",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur66.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.81165, -9.40506]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Mirante",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur67.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.81165, -9.40506]
+      }
     }
   ]
 }
