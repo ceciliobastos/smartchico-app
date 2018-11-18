@@ -4272,6 +4272,70 @@
         "type": "Point",
         "coordinates": [-41.14143, -9.41580]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Ponto para a travessia",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur38.gif",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.58141, -9.45315]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Travessia",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur39.gif",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.58141, -9.45315]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Balneário",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur40.gif",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.58141, -9.46078]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Camping",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur41.gif",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.58141, -9.46078]
+      }
     }
   ]
-}
+
