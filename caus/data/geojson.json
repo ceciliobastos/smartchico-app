@@ -4336,6 +4336,198 @@
         "type": "Point",
         "coordinates": [-40.58141, -9.46078]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Prainha e Porto",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur42.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-42.07936, -9.64915]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Prainha e Porto",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur43.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-42.07936, -9.64915]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Remanso Antigo",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur44.jpg",
+        "height": "275",
+        "width": "192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-42.06737, -9.67931]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Remanso Antigo",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur45.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-42.06737, -9.67931]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Remanso Antigo",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur46.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-42.06737, -9.67931]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Remanso Antigo",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur47.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-42.06737, -9.67931]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Remanso Antigo",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur48.jpg",
+        "height": "174",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-42.06737, -9.67931]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Remanso Antigo",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur49.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-42.06737, -9.67931]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Remanso Antigo",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur50.jpg",
+        "height": "181",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-42.06737, -9.67931]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Remanso Antigo",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur51.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-42.06737, -9.67931]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Antiga Caixa D'água",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur52.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-42.06680, -9.67044]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "turismo",
+        "description": false,
+        "caption": "Antiga Caixa D'água",
+        "video": false,
+        "image": "http://caus.eco.br/geotur/images/tur53.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-42.06680, -9.67044]
+      }
     }
   ]
-
+}
