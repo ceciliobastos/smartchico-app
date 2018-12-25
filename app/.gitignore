@@ -128,4 +128,5 @@ nbdist/
 
 # End of https://www.gitignore.io/api/macos,linux,backup,android,netbeans,apachecordova
 
-/node_modules/
+node_modules
+node_modules/*
