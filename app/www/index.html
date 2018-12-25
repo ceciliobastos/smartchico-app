@@ -1,50 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
-	<meta charset="utf-8">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-        <link rel="stylesheet" type="text/css" href="css/MarkerCluster.css">
-        <link rel="stylesheet" type="text/css" href="css/MarkerCluster.Default.css">
-        <link rel="stylesheet" type="text/css" href="css/leaflet.css">
-        <link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.5.min.css">
-        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.4.5.min.css">
-        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.icons.min.css">
-        <link rel="stylesheet" type="text/css" href="css/smartchico.min.css">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
-        <script type="text/javascript" src="js/leaflet.js"></script>
-        <script type="text/javascript" src="js/leaflet.markercluster.js"></script>
-        <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
-        <title>SmartChico</title>
-    </head>
-    <body>
-      <section id="mapa" data-role="page" data-title="Mapa">
+  <head>
+	  <meta charset="utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <link rel="stylesheet" type="text/css" href="css/MarkerCluster.css" />
+    <link rel="stylesheet" type="text/css" href="css/MarkerCluster.Default.css" />
+    <link rel="stylesheet" type="text/css" href="css/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.4.5.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/smartchico.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="js/leaflet.js"></script>
+    <script type="text/javascript" src="js/leaflet.markercluster.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+    <title>SmartChico</title>
+  </head>
+  <body>
+    <section id="mapa" data-role="page" data-title="Mapa">
           <footer data-role="footer" data-position="fixed" data-tap-toggle="false"></footer>
           <div role="main" class="ui-content mapView" style="display: inline;"></div>
           <div id="menu">
-            <img class="be-btn-menu" src="css/images/btn-menu.png" alt="">
+            <img class="be-btn-menu" src="css/images/btn-menu.png" alt="" />
             <h3>Mostrar:</h3>
             <div class="ui-grid-a geoArte">
                 <label for="fArte" class="ui-block-a">GeoArte:</label>
-                <input checked data-theme="c" class="ui-block-b" data-role="flipswitch" id="fArte" data-on-text="" data-off-text="" data-wrapper-class="custom-size-flipswitch" type="checkbox">
+                <input checked data-theme="c" class="ui-block-b" data-role="flipswitch" id="fArte" data-on-text="" data-off-text="" data-wrapper-class="custom-size-flipswitch" type="checkbox" />
             </div>
             <div class="ui-grid-a geoCult">
                 <label for="fCultura" class="ui-block-a">GeoCult:</label>
-                <input checked data-theme="c" class="ui-block-b" data-role="flipswitch" id="fCultura" data-on-text="" data-off-text="" data-wrapper-class="custom-size-flipswitch" type="checkbox">
+                <input checked data-theme="c" classs="ui-block-b" data-role="flipswitch" id="fCultura" data-on-text="" data-off-text="" data-wrapper-class="custom-size-flipswitch" type="checkbox" />
             </div>
             <div class="ui-grid-a geoTur">
                 <label for="fTurismo" class="ui-block-a">GeoTur:</label>
-                <input checked data-theme="c" class="ui-block-b" data-role="flipswitch" id="fTurismo" data-on-text="" data-off-text="" data-wrapper-class="custom-size-flipswitch" type="checkbox">
+                <input checked data-theme="c" class="ui-block-b" data-role="flipswitch" id="fTurismo" data-on-text="" data-off-text="" data-wrapper-class="custom-size-flipswitch" type="checkbox" />
             </div>
             <br>
             <h3><a onclick="$.mobile.changePage('#sobre', { transition: 'slideup' } )">Sobre o App</a></h3>
           </div>
            <img class="be-btn-location" src="css/images/btn-location.png" alt="">
-      </section>
+    </section>
 
-      <section id="sobre" data-role="page" data-tile="Sobre">
+    <section id="sobre" data-role="page" data-tile="Sobre">
           <header data-role="header">
               <a onclick="$.mobile.changePage('#mapa', { transition: 'slideup', referse: true } )" class="be-btn-back">&nbsp;</a>
               <h1></h1>
@@ -118,9 +119,9 @@
                 <li>OpenStreetMap.</li>
               </ul>
           </div>
-      </section>
+    </section>
 
-      <script type="text/javascript" src="cordova.js"></script>
-      <script type="text/javascript" src="js/index.js"></script>
-    </body>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
 </html>
