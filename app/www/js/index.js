@@ -113,10 +113,12 @@ function criarMapa() {
 			map.panTo( map.unproject(px),{animate: true} );
 		});
 
-	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-		//attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>',
+	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    		attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
+    		tileSize: 512,
 		maxZoom: 18,
-		id: 'rogeriobastos.08164jab',
+		zoomOffset: -1,
+    		id: 'mapbox/streets-v11',
 		accessToken: 'pk.eyJ1Ijoicm9nZXJpb2Jhc3RvcyIsImEiOiJjaW9vZjBka2UwMDVsdHNrbTc5aDRwMW9hIn0.E8itic_IW42gcgLO12oLJw'
 	}).addTo(map);
 
