@@ -28,7 +28,7 @@
     <access origin="*" />
     <access origin="http://caus.eco.br/*" />
     <access origin="https://api.tiles.mapbox.com/*" />
-    <access origin="https://api.mapbox.com/styles/v1/mapbox/streets-v11/*" />
+    <access origin="https://api.tiles.mapbox.com/v4/rogeriobastos.08164jab/*" />
     <access origin="https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/geojson.json" />
     <access origin="https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/messages.json" />
     <allow-intent href="http://*/*" />
