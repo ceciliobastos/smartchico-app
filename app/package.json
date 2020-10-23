@@ -1,37 +1,39 @@
 {
-  "name": "br.uneb.smartchico",
+  "name": "com.bigeyessolution.smartchico",
   "displayName": "SmartChico",
-  "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "version": "1.0.9",
+  "description": "Aplicativo com a finalidade de promover a cultura do Território de Identidade Sertão do São Francisco, que compreende os municípios baianos de Juazeiro, Curaçá, Sobradinho, Casa Nova, Canudos, Uauá, Campo Alegre de Lourdes, Sento Sé, Pilão Arcado e Remanso. Busca se alinhar a propósitos críticos interrelacionados com uma melhor compreensão e fomento das cidades inteligentes, cuja infraestrutura incorpora redes e serviços de computadores, que são consumidos pelos usuários emmobilidade pelo espaço urbano. Para coleta, tratamento e divulgação das informações, são utilizados procedimentos com mídias locativas e produção de conteúdo informativo para bases de dados abertas. Os dados são importados para o aplicativo dedicado, contribuindo para aumentar uma divulgação fundamentada em aspectos ligados à cultura regional, como urbanografia (arte de rua, esculturas, monumentos, lendas urbanas etc), equipamentos/serviços culturais públicos, turismo (serras, parques, cachoeiras etc).",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
-  "dependencies": {
-    "cordova-android": "^6.4.0",
-    "cordova-ios": "^4.5.5",
-    "cordova-plugin-compat": "^1.2.0",
-    "cordova-plugin-device": "^1.1.7",
-    "cordova-plugin-dialogs": "^1.3.4",
-    "cordova-plugin-geolocation": "^2.4.3",
-    "cordova-plugin-splashscreen": "^4.1.0",
-    "cordova-plugin-statusbar": "^2.4.2",
-    "cordova-plugin-whitelist": "^1.3.3"
+  "devDependencies": {
+    "cordova-android": "^9.0.0",
+    "cordova-plugin-device": "^2.0.3",
+    "cordova-plugin-dialogs": "^2.0.2",
+    "cordova-plugin-geolocation": "^4.0.2",
+    "cordova-plugin-splashscreen": "^6.0.0",
+    "cordova-plugin-statusbar": "^2.4.3",
+    "cordova-plugin-whitelist": "^1.3.4"
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-splashscreen": {},
-      "cordova-plugin-statusbar": {},
       "cordova-plugin-whitelist": {},
+      "cordova-plugin-statusbar": {},
       "cordova-plugin-geolocation": {},
       "cordova-plugin-dialogs": {},
-      "cordova-plugin-device": {}
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {}
     },
     "platforms": [
       "android",
       "ios"
     ]
-  }
+  },
+  "dependencies": {}
 }

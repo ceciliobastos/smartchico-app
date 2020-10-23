@@ -15,6 +15,7 @@ html, body, section, .ui-page, #mapa .ui-content, #mapLocal {
   margin: 0 !important;
   height: 100%;
   font-family: 'Open Sans', sans-serif;
+  background: #fff;
 }
 
 h1, h2, h3, h4, h5, h6, h7, a, p, span{
@@ -30,6 +31,7 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  background: #fff;
 }
 
 #menu > div, #menu h3 {
@@ -67,7 +69,7 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
 }
 
 .opened-menu {
-	background-color: #ffffff;
+	background-color: #856f6f;
 	width: 13rem;
 	border-radius: 0.5rem;
 
@@ -97,6 +99,7 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
 }
 .ui-header, .ui-footer {
 	background: url('images/footer.png') center no-repeat;
+	background-color: #ffffff;
 	background-size: contain;
 	border: none!important;
 }
