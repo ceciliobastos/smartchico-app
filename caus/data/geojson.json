@@ -3640,6 +3640,57 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": "Mãe Maria Josenilda de Melo Matias",
+        "caption": "Terreiro Ilê Asé Oya Balê",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult25.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.47788, -9.43815]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Terreiro Ilê Asé Oya Balê",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult26.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.47788, -9.43815]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": "KisaBamin e Mãe Maria Josenilda de Melo Matias",
+        "caption": "Terreiro Ilê Asé Oya Balê",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult27.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.47788, -9.43815]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
