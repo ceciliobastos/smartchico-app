@@ -3230,6 +3230,21 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geoart/grafite216.jpg",
+        "height": "82",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.48968, -9.41867]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "cultura",
         "description": false,
         "caption": "Monumento ao fim do século 20",
