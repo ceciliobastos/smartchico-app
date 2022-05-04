@@ -3211,6 +3211,21 @@
         "type": "Point",
         "coordinates": [-40.81165, -9.40506]
       }
+    },    
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "arte",
+        "description": false,
+        "caption": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geoart/grafite215.jpg",
+        "height": "275",
+        "width": "170"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50765, -9.40876]
+      }
     },
     {
       "type": "Feature",
