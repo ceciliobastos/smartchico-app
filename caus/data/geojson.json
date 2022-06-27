@@ -3717,6 +3717,40 @@
         "type": "Point",
         "coordinates": [-40.47788, -9.43815]
       }
+    },  
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": "Filho de Oxossi, o Babalorixá Ubiratã Muniz Feitosa, comanda a casa Ilê Omôlôsi Axé Odé Tafarajô, desde que fora escolhido para suceder o pai José Ferreira de Tafarajó (pai Miludo), patriarca da casa, que partiu para o Orun em 2018. Pai Ubiratã é seu filho biológico e de santo. A casa foi fundada em 1981, e se denomina de nação Angola, tendo como patrono o orixá Obaluaê. O Babalorixá é filho de Oxossi e está à frente do terreiro há quase quatro anos, tendo cerca de 15 filhos de santo em sua casa. Ele relata que “os mais velhos dizem que candomblé é um poço fundo, ou seja, ninguém sabe mais que ninguém”. As festividades da casa ocorrem em março, com os festejos a Ogum, já em abril comemora-se Oxossi e em agosto tem festividade para Obaluaê. Atualmente, devido à pandemia, as datas das festividades ainda não estão definidas, sendo que por enquanto o público está restrito aos filhos e adeptos do terreiro.",
+        "caption": "Terreiro Ilê Omôlôsi Axé Odé Tafarajô",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult28.jpg",
+        "height": "184",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51541, -9.42914]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Terreiro Ilê Omôlôsi Axé Odé Tafarajô",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult29.jpg",
+        "height": "184",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51541, -9.42914]
+      }
     },
     {
       "type": "Feature",
