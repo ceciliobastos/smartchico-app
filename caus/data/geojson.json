@@ -4044,6 +4044,57 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult43.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49352, -9.42184]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult44.jpg",
+        "height": "275",
+        "width": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49352, -9.42184]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult45.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49352, -9.42184]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
