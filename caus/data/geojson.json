@@ -3710,14 +3710,31 @@
         "video": false,
         "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1295509681&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
         "image": false,
-        "height": "275",
-        "width": "183"
+        "height": "200",
+        "width": "300"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [-40.52656, -9.42912]
       }
-    },  
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Terreiro Ilê Asé Oya Balê",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult27.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.47738, -9.43746]
+      }
+    },
     {
       "type": "Feature",
       "properties": {
