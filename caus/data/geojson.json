@@ -3671,7 +3671,7 @@
       "type": "Feature",
       "properties": {
         "category": "cultura",
-        "description": "Completando 37 anos de existência, o terreiro Abaça Omim Arô, foi fundado em 1985, está localizado no bairro João Paulo II, e tem como zeladora da casa a Yalorixá Ominadereuá, mais conhecida como Mãe Omina. A casa tem como patrono o orixá Oxum Opará, e tem como nação, Angola, mas a Yalorixá explica que o orixá da casa veio do Ketu. Mãe Omina conta que a casa já fez algumas dezenas de filhos, mas atualmente apenas 20 continuam nesse plano. A casa foi passada de geração para geração, e a família é toda do axé. Mãe Omina conta que foi preparada para assumir o cargo desde criança, quando ainda morava em Salvador (BA). Após a vinda para Juazeiro (BA) passou um tempo em uma casa de candomblé, depois foi para a umbanda e ficou por muitos anos nesse terreiro até que o Orixá a chamou para ser do candomblé. As datas comemorativas da casa acontecem durante todo o ano, exceto em abril e outubro, onde fazem uma pausa.",
+        "description": false,
         "caption": "Terreiro Ylê Asé OmimKayOdé",
         "video": false,
         "sound": false,
