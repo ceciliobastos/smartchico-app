@@ -3671,8 +3671,8 @@
       "type": "Feature",
       "properties": {
         "category": "cultura",
-        "description": "Mãe Maria Josenilda de Melo Matias",
-        "caption": "Terreiro Ilê Asé Oya Balê",
+        "description": "Completando 37 anos de existência, o terreiro Abaça Omim Arô, foi fundado em 1985, está localizado no bairro João Paulo II, e tem como zeladora da casa a Yalorixá Ominadereuá, mais conhecida como Mãe Omina. A casa tem como patrono o orixá Oxum Opará, e tem como nação, Angola, mas a Yalorixá explica que o orixá da casa veio do Ketu. Mãe Omina conta que a casa já fez algumas dezenas de filhos, mas atualmente apenas 20 continuam nesse plano. A casa foi passada de geração para geração, e a família é toda do axé. Mãe Omina conta que foi preparada para assumir o cargo desde criança, quando ainda morava em Salvador (BA). Após a vinda para Juazeiro (BA) passou um tempo em uma casa de candomblé, depois foi para a umbanda e ficou por muitos anos nesse terreiro até que o Orixá a chamou para ser do candomblé. As datas comemorativas da casa acontecem durante todo o ano, exceto em abril e outubro, onde fazem uma pausa.",
+        "caption": "Terreiro Ylê Asé OmimKayOdé",
         "video": false,
         "sound": false,
         "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult25.jpg",
@@ -3681,7 +3681,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-40.47788, -9.43815]
+        "coordinates": [-40.52656, -9.42912]
       }
     },
     {
@@ -3689,7 +3689,7 @@
       "properties": {
         "category": "cultura",
         "description": false,
-        "caption": "Terreiro Ilê Asé Oya Balê",
+        "caption": "Terreiro Ylê Asé OmimKayOdé",
         "video": false,
         "sound": false,
         "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult26.jpg",
@@ -3698,24 +3698,24 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-40.47788, -9.43815]
+        "coordinates": [-40.52656, -9.42912]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "category": "cultura",
-        "description": "KisaBamin e Mãe Maria Josenilda de Melo Matias",
-        "caption": "Terreiro Ilê Asé Oya Balê",
+        "description": false,
+        "caption": false,
         "video": false,
-        "sound": false,
-        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult27.jpg",
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1295509681&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
         "height": "275",
         "width": "183"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-40.47788, -9.43815]
+        "coordinates": [-40.52656, -9.42912]
       }
     },  
     {
