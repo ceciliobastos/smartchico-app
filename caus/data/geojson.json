@@ -3759,7 +3759,7 @@
         "description": false,
         "caption": false,
         "video": false,
-        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1295498548&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1295512186&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
         "image": false,
         "height": "200",
         "width": "300"
@@ -3886,6 +3886,57 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-40.52385, -9.43110]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": "Localizado na rua Santo Antônio, do bairro Jardim das Acácias, o terreiro Onzo Nkosi Luandê D´uzambi, foi fundado no dia 5 de fevereiro de 2006, pelo babalorixá Laudeilton Alves Leal, de 47 anos, que ainda comanda a casa. Com dezesseis anos de funcionamento, o terreiro tem como orixá patrono Ogum, e o Yabá é Oxum. A casa tem como Caboclo Águas Claras, um boiadeiro. Seu terreiro é de Angola, com influências de Ketu. É que pai Lau recebe filhos e filhas de outras nações para fazer a iniciação “se é Ketu a gente faz no Ketu, se é de Angola fazemos na Angola, não pode mudar a nação”. Iniciado na umbanda pelo sacerdote Erisvaldo, pai Lau relata que já tem vinte e um anos de terreiro, nos quais dezessete são de feito, hoje possui 56 filhos de santo. Ele conta que a casa foi construída aos poucos, ainda de barro “o caboclo pediu que passasse uma casa tocando no barro, que não fizéssemos o piso de cerâmica e nem nada”. Foi na sua própria casa que o babalorixá Laudeilton foi iniciado e continua levando os sons dos tambores para a região de Juazeiro-BA.",
+        "caption": "Terreiro Onzo Nkosi Luande D’UZAMBI",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult37.jpg",
+        "height": "184",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50485, -9.44007]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Terreiro Onzo Nkosi Luande D’UZAMBI",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult38.jpg",
+        "height": "184",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50485, -9.44007]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1295498548&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
+        "height": "200",
+        "width": "300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50485, -9.44007]
       }
     },
     {
