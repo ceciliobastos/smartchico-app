@@ -4010,6 +4010,40 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Terreiro Aldeia do Boiadeiro",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult41.jpg",
+        "height": "275",
+        "width": "206"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50610, -9.43500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Terreiro Aldeia do Boiadeiro",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult42.jpg",
+        "height": "275",
+        "width": "206"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50610, -9.43500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
