@@ -3942,6 +3942,57 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": "A casa é uma das mais antigas da cidade e se encontra no bairro Tabuleiro, em Juazeiro-BA.",
+        "caption": "Vodun Jidãn Dãn dá Hum Bessenador",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult39.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.47946, -9.43731]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Vodun Jidãn Dãn dá Hum Bessenador",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult40.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.47946, -9.43731]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1295511019&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
+        "height": "200",
+        "width": "300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.47946, -9.43731]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
