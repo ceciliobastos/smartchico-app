@@ -4146,6 +4146,57 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": "Regivan Paulo de Albuquerque, zela de uma das primeiras casas a surgir no bairro Antônio Conselheiro, o terreiro Ilê Asé Omin Deuy. Pai Regivan, é sacerdote de Obará, e fundou sua casa em 2004, estando completando agora 18 anos de existência. O babalorixá foi iniciado nos anos 2000, e tem como Djina Uê Amin. Tem cerca de 82 filhos de santo, e brinca que muitos estão espalhados por diversos cantos do Brasil. Suas festividades ocorrem no mês de julho, para Ogum. Já o último sábado de novembro é dedicado à festa de Sete Saia. O terreiro tem como nação o Ketu, tendo como matriarca Oxum.",
+        "caption": "Terreiro Ilê Asé Omin Deuy",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult49.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51566, -9.44304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Terreiro Ilê Asé Omin Deuy",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult50.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51566, -9.44304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Terreiro Ilê Asé Omin Deuy",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult51.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51566, -9.44304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
