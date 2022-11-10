@@ -3790,13 +3790,30 @@
       "type": "Feature",
       "properties": {
         "category": "cultura",
-        "description": "Completando 37 anos de existência, o terreiro Abaça Omim Arô, foi fundado em 1985, está localizado no bairro João Paulo II, e tem como zeladora da casa a Yalorixá Ominadereuá, mais conhecida como Mãe Omina. A casa tem como patrono o orixá Oxum Opará, e tem como nação, Angola, mas a Yalorixá explica que o orixá da casa veio do Ketu. Mãe Omina conta que a casa já fez algumas dezenas de filhos, mas atualmente apenas 20 continuam nesse plano. A casa foi passada de geração para geração, e a família é toda do axé. Mãe Omina conta que foi preparada para assumir o cargo desde criança, quando ainda morava em Salvador (BA). Após a vinda para Juazeiro (BA) passou um tempo em uma casa de candomblé, depois foi para a umbanda e ficou por muitos anos nesse terreiro até que o Orixá a chamou para ser do candomblé. As datas comemorativas da casa acontecem durante todo o ano, exceto em abril e outubro, onde fazem uma pausa.",
-        "caption": "Terreiro Abaça Omim Arôa - Dorilene",
+        "description": "Completando 37 anos de existência, o terreiro Abaça Omim Arô, foi fundado em 1985, está localizado no bairro João Paulo II, e tem como zeladora da casa a Yalorixá Ominadereuá, mais conhecida como Mãe Omina. A casa é regida pela divindade orixá Oxum Opará, e é de como nação Angola. A Yalorixá explica que o orixá da casa veio do Ketu. Mãe Omina conta que a casa já fez algumas dezenas de filhos, mas atualmente apenas 20 continuam nesse plano. A casa foi passada de geração para geração e a família de Mãe Omina é toda do axé. Ela ainda conta que foi preparada para assumir o cargo desde criança, quando ainda morava em Salvador (BA). Após a vinda para Juazeiro (BA) passou um tempo em uma casa de Candomblé, depois foi para a Umbanda e ficou por muitos anos em um terreiro de Umbanda até que o Orixá a chamou para ser do Candomblé. As datas comemorativas da casa acontecem durante todo o ano, exceto em abril e outubro, quando faz uma pausa.",
+        "caption": "Terreiro Abaça Omim Arô",
         "video": false,
         "sound": false,
         "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult30.jpg",
         "height": "275",
         "width": "206"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50016, -9.46933]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1295515099&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
+        "height": "200",
+        "width": "300"
       },
       "geometry": {
         "type": "Point",
@@ -4260,6 +4277,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-40.51566, -9.44304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Terreiro Abaça Omim Arô",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult52.jpg",
+        "height": "206",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50016, -9.46933]
       }
     },
     {
