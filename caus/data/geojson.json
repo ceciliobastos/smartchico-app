@@ -3842,6 +3842,23 @@
       "properties": {
         "category": "cultura",
         "description": false,
+        "caption": false,
+        "video": false,
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1296252964&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
+        "height": "200",
+        "width": "300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.47921, -9.42771]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
         "caption": "Terreiro Ilê Asé Oya Balê",
         "video": false,
         "sound": false,
