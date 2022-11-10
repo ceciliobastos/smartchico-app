@@ -4333,6 +4333,57 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": "Maria Gracileide da Costa Cruz, 39 anos, mãe Branca, cuja dijina é Iya Odomi Lewá, é natural de Teresina (PI), e comanda o terreiro Asé Egbé Iya Odomi Lewá, aberta em 2015. Ela afirma que ‘a partir do momento que a gente passa pela parte ritualística, o orixá nos predomina e nomina com um nome ancestral. Então esse é o nome que me chamo hoje, o meu orixá é Iemanjá e a minha casa também, ela é a regente da casa, a casa já carrega o nome dela’. Ela conta que os seus pais eram de Umbanda e Kimbanda e que, de acordo com o que ela é hoje, os seus caminhos não eram de Umbanda. Por isso, teve que procurar o Candomblé por questões de saúde. E assim, não pode seguir pelo caminho dos seus pais, pela sua saúde. ‘Não abandonei, mas não desenvolvo’.",
+        "caption": "Terreiro Asé Egbé Iya Odomi Lewá",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult55.jpg",
+        "height": "184",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49544, -9.42864]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": "O Asé Egbé Iya Odomi Lewá é de nação Ketu e mãe Branca desenvolve na sua casa de Candomblé, segue de acordo com o seu ancestral, e o seu orixá. ‘Tudo que é feito é na nação Ketu, mas eu tenho caboclos, entidades na casa, a entidade Marujo, que hoje é pouco cultuada, eu só não cultuo Pretos Velhos, ciganos, mestres. Esses aí não passam aqui pra eu cultuar, mas Exu e caboclos, são desenvolvidos na casa. Até porque eu tenho manifesto, mas minha casa não é um Ketu puro, porque eu venho de casa de Angola, é uma casa do tipo que as pessoas falam, cruzadas, misturadas. Os mais antigos falam isso’.",
+        "caption": "Terreiro Asé Egbé Iya Odomi Lewá",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult56.jpg",
+        "height": "184",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49544, -9.42864]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1295515837&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
+        "height": "200",
+        "width": "300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49544, -9.42864]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
