@@ -3892,7 +3892,7 @@
       "type": "Feature",
       "properties": {
         "category": "cultura",
-        "description": false,
+        "description": "Iniciado desde a década de setenta, Carlos Alberto Barbosa Bispo pai Kaká, comanda a casa herdada do pai Henrique. Sua dijina é D'ogunjá, é filho de Ogum com Oxóssi e Obaluaê. Ele foi feito pelo pai Henrique em 1974, antes de falecer, seu pai lhe presenteou com um terreiro. Logo, está herdando o que ele deixou. Ele diz não ter um número exato de filhos, muitos herdados do seu pai. Seu terreiro segue as nações Ketu e Angola. Pai Kaká está à frente da casa há mais de 30 anos. O patrono da casa é Ogum. Ele informa que a casa possui um calendário de festividades: em 1º de junho realiza a novena para Santo Antônio. Já em 27 de junho é dia de seu pai Ogum. Dia 2 de julho a festa é para os Caboclos. No dia 16 de agosto é a festa de Obaluaê. Por fim, em 20 de outubro faz o caruru e, faz ainda, as obrigações dos filhos da casa.",
         "caption": "Terreiro Abassá de Ogum Já",
         "video": false,
         "sound": false,
@@ -3916,6 +3916,23 @@
         "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult36.jpg",
         "height": "183",
         "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52385, -9.43110]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1296252793&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
+        "height": "200",
+        "width": "300"
       },
       "geometry": {
         "type": "Point",
