@@ -4130,7 +4130,7 @@
       "type": "Feature",
       "properties": {
         "category": "cultura",
-        "description": "O terreiro de Ogum Punhal, foi fundado no ano de 1972, e é de acordo com o babalorixá da casa, pai José Carlos, o terreiro mais antigo de Juazeiro-BA. A casa tem como orixá Ogum e Iemanjá, o sacerdote tem como dijina Oguntê. O terreiro é de nação Angola, e tem  25 filhos feitos, mais só uma permanece na casa, alguns foram para outras cidades e os outros já são falecidos. A casa só funciona alguns dias no ano, como o pai José Carlos já tem certa idade já não pode atender todos os dias. Já são 52 anos de santo, ele conta que já está em tempo de se aposentar, mais que zela pela casa durante toda a semana, onde faz o “osser do santo e osser de Exu, que é o Exu chefe da casa, que é tranca rua, toda segunda-feira é Exu, que é o escravo da casa, terça-feira o quarto do santo que é O'Cefi e assim vou levando a vida”. O terreiro é aberto durante a festa de Ogum, no dia 13 de junho, que é o dia de Santo Antônio. Abre também para a festa de Iemanjá, que ocorre no dia 2 de fevereiro e ainda para o Caruru das crianças, no dia 27 de setembro, onde o pai José Carlos alimenta 27 crianças na mesa. São nessas três datas que a casa é aberta.",
+        "description": "Pai José Carlos, Babalorixá, é responsável pelo terreiro de Ogum Punhal, localizado no bairro Argemiro, fundado em 1972. Ele assegura que esse é o terreiro mais antigo de Juazeiro-BA. A casa tem como patrono os orixás Ogum e Iemanjá e a dijina (nome na religião) do sacerdote é Ogunté. A casa é de Nação Angola. Pai José Carlos informa que tem 25 filhos. Mas, atualmente, só uma permanece na casa. Alguns foram para outras cidades e outros já são falecidos. A casa só funciona alguns dias no ano. É que o pai José Carlos já tem certa idade e já não pode realizar, diariamente, todas as atividades que a religião exige. Ele informa que já tem 52 anos de santo, foi iniciado em 1970. Acredita que já está em tempo de se aposentar, mais que zela pela casa durante toda a semana, onde faz o ‘ossé do santo e de Exú, o mensageiro e o chefe da casa, que é o Seu Tranca Rua. Essa tarefa é feita sempre nas segundas-feiras. Na terça-feira, dia de cuidar do quarto do santo que é o ossé, e assim vou levando a vida’, diz ele.",
         "caption": "Terreiro de Ogum Punhal",
         "video": false,
         "sound": false,
@@ -4147,7 +4147,7 @@
       "type": "Feature",
       "properties": {
         "category": "cultura",
-        "description": false,
+        "description": "O terreiro abre suas portas três vezes ao ano. Uma delas, que agita a comunidade do terreiro é para as homenagens à Ogum. A festa é sempre realizada no dia 13 de junho, que é o dia de Santo Antônio. Outra data de festividade é 2 de fevereiro, dia de saudar Iemanjá. A terceira data do ano é no dia 27 de setembro, hora de saudar as crianças. Nesse dia o pai José Carlos serve caruru para 27 crianças na mesa. São nessas três datas que a casa é aberta.",
         "caption": "Terreiro de Ogum Punhal",
         "video": false,
         "sound": false,
@@ -4171,6 +4171,23 @@
         "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult48.jpg",
         "height": "183",
         "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.50925, -9.43628]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1295516431&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
+        "height": "200",
+        "width": "300"
       },
       "geometry": {
         "type": "Point",
