@@ -4096,8 +4096,8 @@
       "type": "Feature",
       "properties": {
         "category": "cultura",
-        "description": false,
-        "caption": false,
+        "description": "Jacilene Lopes da Silva, ou Angoôacy, sua dijina no candomblé, é a Yalorixá do Terreiro Unzo Congo N’Tàlá Meán, e conheceu a religião de matriz africana aos 15 anos de idade. Filha de Angorô, ela foi iniciada pelo Babalorixá Erisvaldo de Ologunedé. De nação Angola, seu terreiro que segue um calendário religioso em festividades à divindade Xangô e obrigações de filhos.",
+        "caption": "Terreiro Unzo Congo N’Tàlá Meán",
         "video": false,
         "sound": false,
         "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult43.jpg",
@@ -4106,7 +4106,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-40.49352, -9.42184]
+        "coordinates": [-40.51680, -9.44167]
       }
     },
     {
@@ -4114,7 +4114,7 @@
       "properties": {
         "category": "cultura",
         "description": false,
-        "caption": false,
+        "caption": "Terreiro Unzo Congo N’Tàlá Meán",
         "video": false,
         "sound": false,
         "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult44.jpg",
@@ -4123,7 +4123,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-40.49352, -9.42184]
+        "coordinates": [-40.51680, -9.44167]
       }
     },
     {
@@ -4131,7 +4131,7 @@
       "properties": {
         "category": "cultura",
         "description": false,
-        "caption": false,
+        "caption": "Terreiro Unzo Congo N’Tàlá Meán",
         "video": false,
         "sound": false,
         "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult45.jpg",
@@ -4140,7 +4140,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-40.49352, -9.42184]
+        "coordinates": [-40.51680, -9.44167]
       }
     },
     {
