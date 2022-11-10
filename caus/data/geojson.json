@@ -3671,7 +3671,7 @@
       "type": "Feature",
       "properties": {
         "category": "cultura",
-        "description": false,
+        "description": "Filho consanguíneo de seu Emanuel Rosa, dirigente do terreiro Onyndancor, Erisvaldo da Silva Rosa, comanda o terreiro Ilé Asé Omin Kayodé, localizado no bairro do Quidé, em Juazeiro/BA, há 28 anos. Sua dijina é Odé Jomi, e sua casa é de Ketu. Foi iniciado ainda no terreiro Onyndancor, pela Yalorixá de seu pai, mãe Filhinha de Oxum. Tem 43 anos de idade e 33 anos de iniciado.  É filho do orixá Logun Edé, mesmo orixá regente da sua casa. Conta ter mais de mil pessoas iniciadas, espalhados por uma boa parte do país.",
         "caption": "Terreiro Ylê Asé OmimKayOdé",
         "video": false,
         "sound": false,
@@ -3739,7 +3739,7 @@
       "type": "Feature",
       "properties": {
         "category": "cultura",
-        "description": "Filho de Oxossi, o Babalorixá Ubiratã Muniz Feitosa, comanda a casa Ilê Omôlôsi Axé Odé Tafarajô, desde que fora escolhido para suceder o pai José Ferreira de Tafarajó (pai Miludo), patriarca da casa, que partiu para o Orun em 2018. Pai Ubiratã é seu filho biológico e de santo. A casa foi fundada em 1981, e se denomina de nação Angola, tendo como patrono o orixá Obaluaê. O Babalorixá é filho de Oxossi e está à frente do terreiro há quase quatro anos, tendo cerca de 15 filhos de santo em sua casa. Ele relata que “os mais velhos dizem que candomblé é um poço fundo, ou seja, ninguém sabe mais que ninguém”. As festividades da casa ocorrem em março, com os festejos a Ogum, já em abril comemora-se Oxossi e em agosto tem festividade para Obaluaê. Atualmente, devido à pandemia, as datas das festividades ainda não estão definidas, sendo que por enquanto o público está restrito aos filhos e adeptos do terreiro.",
+        "description": "Filho de Oxossi, o Babalorixá Ubiratã Muniz Feitosa, comanda a casa Ilê Omôlôsi Axé Odé Tafarajô, desde que fora escolhido para suceder o pai José Ferreira de Omolú, Seu Zé Veludo, patriarca da casa, que partiu para o Orun em 2018. Pai Ubiratã é seu filho biológico e de santo. A casa foi fundada em 1981, e se denomina de nação Ketu e Angola, tendo como patrono o orixá Obaluaê. O Babalorixá é filho de Oxossi e está à frente do terreiro há quase quatro anos, tendo cerca de 15 filhos de santo em sua casa. Ele relata que os mais velhos dizem que candomblé é um poço fundo, ou seja, ninguém sabe mais que ninguém. As festividades da casa ocorrem em março, com os festejos a Ogum, já em abril comemora-se Oxossi e em agosto tem festividade para Obaluaê. Atualmente, devido à pandemia, as datas das festividades ainda não estão definidas, sendo que por enquanto o público está restrito aos filhos e adeptos do terreiro.",
         "caption": "Terreiro Ilê Omôlôsi Axé Odé Tafarajô",
         "video": false,
         "sound": false,
@@ -3807,8 +3807,8 @@
       "type": "Feature",
       "properties": {
         "category": "cultura",
-        "description": false,
-        "caption": "Terreiro Ilê de Bamburucema",
+        "description": "De nação Angola, o terreiro Ylê de Bamburucema, localizado no bairro Sol Levante, em Juazeiro (BA), é zelado pela Yalorixá Maria Joaquina de Souza Santos, 57 anos. Filha de Iansã com Xangô, ela conta que começou sua vida no Candomblé no terreiro de Mãe Luiza, também da Nação Angola, que fica no Novo Encontro. Mãe Maria fala que ninguém entra no Candomblé por amor e sim pela dor, como foi o seu caso, onde por causa de uma enfermidade procurou a Mãe Luiza, que a acolheu, assim como Iansã e o Boiadeiro. Sua casa foi fundada há 28 anos. Antes era localizada no Alto do Cruzeiro, saiu de lá em busca de um espaço maior e encontrou esse espaço no bairro Sol levante, onde está há oito anos, com seus 14 filhos de santo. O terreiro de Mãe Maria é regido por Iansã. Ela conta que está no Candomblé há 35 anos. Mas, de feita, 21 anos.",
+        "caption": "Terreiro Ylê de Bamburucema",
         "video": false,
         "sound": false,
         "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult31.jpg",
@@ -3824,8 +3824,8 @@
       "type": "Feature",
       "properties": {
         "category": "cultura",
-        "description": false,
-        "caption": "Terreiro Ilê de Bamburucema",
+        "description": "As festividades da casa seguem uma ordem, toda semana nas sexta-feiras ocorrem os cultos aos Pretos Velhos. Em maio ocorre a festa de Iansã. Já em junho acontece a feijoada de Ogum. Em julho, cultua-se os Caboclos e em setembro a festa dos meninos (Erês). Em novembro as Lebaras e em dezembro como é a data de Iansã, também ocorrem mais celebrações. Apenas nos meses de janeiro e fevereiro a casa não realiza festejos.",
+        "caption": "Terreiro Ylê de Bamburucema",
         "video": false,
         "sound": false,
         "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult32.jpg",
