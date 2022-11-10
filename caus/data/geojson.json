@@ -4384,6 +4384,57 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": "O terreiro Abassá de OyáGnam, localizado no bairro Quidé, tem como yalorixá Gleide dos Santos Silva (Mãe Gleide). Ela recebeu essa responsabilidade da orixá Iansã, durante uma das festividades do terreiro. Antes, a Yalorixá da casa era sua mãe biológica e de santo, Mãe Adelaide. Sua casa apresenta as raízes de Mãe Filhinha. Na sua família, já é uma tradição que a responsabilidade da liderança do terreiro fique entre as mulheres. Mãe Gleide informa que o terreiro possui duas vertentes, uma de nação Angola, devido a sua mãe que é filha de Iansã e pertencente a essa nação e também a nação Ketu, sendo essa a que pertence mãe Gleide, filha de Ogum Xoroquê, com Iansã Topé. Atualmente a casa possui cerca de 20 filhos/as de santo, sendo 11 iniciados no ketu e os restante, Angola, e são os/as seguidores do tempo que Mãe Adelaide era a líder religiosa do Abassá de OyáGnam.",
+        "caption": "Terreiro Abassá de OyáGnam",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult57.jpg",
+        "height": "184",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52495, -9.42636]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": "As festividades acontecem anualmente. Em fevereiro, festa para Ogum Xoroquê. Em junho, feijoada de Ogum e em julho tem a festa dos caboclos, destinados a Jurema, Boiadeiro e aos caboclos de todos os filhos da casa. Já em agosto é o mês da festa de saudar Omolu, com o olubajé e em dezembro, festa para Iansã. O terreiro passou um período, em torno de dois anos, sofrendo intolerância religiosa, com grandes perdas. O crime causou danos físicos ao terreiro e fragilizou a saúde da Mãe Adelaide. Aliás, foi o motivo mais forte que resultou no seu afastamento precoce do terreiro.",
+        "caption": "Terreiro Abassá de OyáGnam",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult58.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52495, -9.42636]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1295517196&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
+        "height": "200",
+        "width": "300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52495, -9.42636]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
