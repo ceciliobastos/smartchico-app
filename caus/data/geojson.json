@@ -4299,6 +4299,40 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": "O Babalorixá Carlos Fredson Santos da Hora, 42 anos, completou  10 anos de raspado. Sua casa ainda não foi aberta. Pai Carlos explica que ainda está no processo de escolha do nome de seu terreiro, ele diz que esse passo tem que ser respeitado. ‘A gente não inventa nome, quem traz o nome é o orixá, ele já trouxe o nome e eu passei para o pai de santo, mas ele ainda vai ver, vai no Ifá para ver se é isso mesmo, porque Oxalá já me trouxe o nome em sonhos’. Os filhos de santo, e sua relação com o Candomblé vem desde seus avós. De onde também herdou o gosto de trabalhar com o acarajé. Por ser filho de Oxalufã, pai Carlos conta que não poderia fazer acarajé, mas ressalta que pediu a permissão do seu orixá para poder exercer essa função.",
+        "caption": "Pai Carlos de Oxalá",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult53.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51500, -9.44382]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": "Pai Carlos nasceu na religião, na sua casa também é conhecido como Ala felegi, que é filho de Oxalufã, Iansã, Oxum e Ogum. Atualmente realiza seus trabalhos na casa de seu pai, no terreiro Ologum Éde, localizado na Malhada da Areia, para praticar suas obrigações. Sua casa é da nação Ketu, mas ressalta que segue todas as nações, pelo seu pai ser Oxalufã, que de acordo com eles vai nas quatro nações ‘meu santo vai em qualquer nação, eu me sinto honrado por isso’.",
+        "caption": "Pai Carlos de Oxalá",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult54.jpg",
+        "height": "275",
+        "width": "184"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51500, -9.44382]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
