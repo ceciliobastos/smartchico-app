@@ -4435,6 +4435,40 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": "Maria Luiza Alves dos Santos, 73 anos, foi feita pelo finado Careca, no seu terreiro que ficava localizado no bairro Alto Maravilha, em Juazeiro (BA). Ela tem mais de 30 filhos, sendo que 20 convivem na casa e os outros estão espalhados pelo mundo. Seu terreiro sofre com o racismo religioso. Foi alvo de intolerância. Ela relata que foi uma das primeiras moradoras do bairro.  ‘Quando eu cheguei aqui não tinha ninguém. Era um bairro isolado, não tinha casa, nem nada. A primeira casa que foi construída aqui foi a minha e da vizinha’. O problema são os novos moradores que chegam ao bairro, que propagam a violência ao terreiro.",
+        "caption": "Terreiro Ilê de Yansã",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult59.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49624, -9.42627]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1296271606&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
+        "height": "200",
+        "width": "300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49624, -9.42627]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
