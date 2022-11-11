@@ -4724,6 +4724,57 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": "O terreiro Ilé Àse Odé Ígbomím Ketú, é a casa mais antiga do bairro Jardim Flórida, localizada em Juazeiro (BA). Seu responsável é Fábio Figueira dos Santos, 48 anos, filho de Odé. Sua dijina é Odé Mifá, e sua nação é Ketu. A casa foi fundada pela sua irmã de santo, Maria Botelha, primeira mãe de santo do terreiro, que fazia suas obrigações na Umbanda. Quando seu pai de santo faleceu, ela procurou o Babalorixá de pai Fábio, o pai Alimpio, já falecido, para continuar fazendo suas obrigações. Quando ela veio a falecer, Fábio ficou responsável por zelar pela casa. A casa tem mais de 70 anos de existência, foi uma das primeiras casas do bairro, participou da sua fundação. Sua iniciação é de Ketu, tem 33 filhos de santo e o orixá da casa é Odé, que é também o dono da sua cabeça.",
+        "caption": "Terreiro Ilé Àse Odé Ígbomím Ketú",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult70.jpg",
+        "height": "184",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51378, -9.42883]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Terreiro Ilé Àse Odé Ígbomím Ketú",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult71.jpg",
+        "height": "184",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51378, -9.42883]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1296252874&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
+        "height": "200",
+        "width": "300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51378, -9.42883]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
