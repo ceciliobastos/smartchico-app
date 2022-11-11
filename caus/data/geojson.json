@@ -4673,6 +4673,57 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": "Emerson Oliveira da Silva, pai Bimbo, é o zelador da casa Abassá Kaiango Macuajô Santo Antônio, que é de nação Angola. No terreiro, fundado há 10 anos, ele também cultua Umbanda. A dijina de pai Bimbo é Munkeu Azaze de Uzambi e ele é filho da divindade Xangô, Zazé Luangô. Ele informa que o orixá regente da casa é Xangô Zazé. Sua trajetória religiosa começou na infância, com alguns sofrimentos e problemas de saúde. Conta que nasceu em um berço católico e evangélico e que sofreu muito, até conseguir cuidar da sua espiritualidade. Começou na Umbanda e por mais de 20 anos foi filho de Maria Zélia de Jesus, mais conhecida em Juazeiro/BA, como dona Celina de Umbanda, no terreiro do Caboclo Gentil, no Alto da Maravilha. Com o falecimento dela, ele deu continuidade às obrigações com a filha dela, Dita. Ele conta que um dia chegou a sua hora, Xangô o jogou para dentro do Candomblé e foi raspado no Ilê Asé Omin Kayodé, pelas mãos do Babalorixá Citalajô, e o seu pai pequeno era Odé Jomin.",
+        "caption": "Terreiro Abassá Kaiango Macuajô",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult68.jpg",
+        "height": "184",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.47988, -9.43537]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": "Raspou o santo em dezembro de 2008, e em janeiro de 2012 pagou sua obrigação de três anos e recebeu seu Decar, foi aí que abriu sua casa, ainda no bairro Dom José Rodrigues, em uma casa de aluguel, onde tirou um barco de Yaos. Até que, finalmente, conseguiu sua roça, doada por uma de suas filhas de santo. Sofreu com a intolerância religiosa, seu terreiro foi depredado, quebraram alguns objetos da casa. ‘Lutei. Fui para a justiça, mas nunca deixei que me calassem. Com muito sofrimento, com muita labuta, muitas noites de sono, ajuda de amigos, aos trancos e barrancos, fui construindo cada pedacinho desse barracão’.",
+        "caption": "Terreiro Abassá Kaiango Macuajô",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult69.jpg",
+        "height": "184",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.47988, -9.43537]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1296252886&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
+        "height": "200",
+        "width": "300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.47988, -9.43537]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
