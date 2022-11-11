@@ -4469,6 +4469,57 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": "Maria Rosa da Silva, 87 anos, comanda o Terreiro de Ogum há 70 anos. Sua casa é regida por Orixás e também por entidades da Umbanda. Ela explica que ‘primeiro a gente faz o corte dos escravos, para depois dar comida ao meu santo, porque se der antes, só vai cair’. Conta que os evangélicos foram em sua casa orar, mas que quando adoeceu só quem resolveu o problema foi Exu. ‘Eu não fiquei boa nem com padre, nem com crente, nem com doutor. Fiquei boa foi no terreiro’. Mãe Maria Rosa realiza todo ano a festa de Santa Bárbara e garante que só deixará de fazê-la ‘quando partir dessa vida’. Em 13 de junho comemora Ogum, seu santo. Também realiza as festas dos Cosmes. Relata que a porta fica aberta, onde todo mundo come e bebe, menos bebida alcoólica, porque suas obrigações não aceitam esse tipo de bebida, nem fumar dentro da casa. Fala que conserva a pedra dos Marujos, acende as velas e coloca seu cigarro.",
+        "caption": "Terreiro de Ogum",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult60.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51370, -9.42873]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Terreiro de Ogum",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult61.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51370, -9.42873]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1296252949&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
+        "height": "200",
+        "width": "300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51370, -9.42873]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
