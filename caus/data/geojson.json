@@ -4520,6 +4520,57 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": "Filha de santo de Mãe Filhinha de Oxum, Galdelice Martins dos Santos, conhecida por Mãe Mineuanga, tem 67 anos e, desses, 60 são de feita no Candomblé. Foi feita na rua Santo Antônio, no primeiro barracão da Mãe Filhinha. Ela relata, com muito orgulho, a trajetória religiosa de sua mãe de santo: ‘Mãe Filhinha era filha de Oxum, sou neta de Pai Henrique, que era Babalorixá de minha Yalorixá. O terreiro dele se chamava Mocumbo, filho de Ogum, sua dijina era Kibeço, o terreiro dele era de Ketu’.  Mãe Mineuanga fala que o pai Henrique raspava pessoas de todas as nações e que, para ele, todos os pais e mães de santo têm que aceitar todas as nações que vier. Não tem escolha. O orixá da sua casa é Tempo, o segundo é Oxum, o terceiro é Oxóssi.",
+        "caption": "Terreiro Manso Kemuilo Mudará de Nzambi",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult62.jpg",
+        "height": "184",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52273, -9.42686]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Terreiro Manso Kemuilo Mudará de Nzambi",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult63.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52273, -9.42686]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1296252934&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
+        "height": "200",
+        "width": "300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52273, -9.42686]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
