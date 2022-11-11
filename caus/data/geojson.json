@@ -4572,7 +4572,7 @@
       "type": "Feature",
       "properties": {
         "category": "cultura",
-        "description": "Aberto há 14 anos, o Terreiro de Ogum é zelado pela Yalorixá Maria Alves da Silva, mãe Maria de Ogum, localizado no bairro Jardim Flórida, na rua Raimundo Dias, em Juazeiro-BA. Aos 69 anos, mãe Maria de Ogum, está há mais de 20 anos realizando suas tarefas no Candomblé. Sua dijina é Ogum Rondê Mata Verde de Unzo e sua nação é de Angola. No Candomblé começou sua caminhada como Mãe Pequena, no mesmo local onde reside hoje e que pertencia a mãe Maria Golpeia, que não está mais nesse plano. Quando ela partiu, Mãe Maria de Ogum assumiu a casa. Depois foi fazer a obrigação com Mãe Luiza, no Lomanto Júnior. Não possui filhos feitos ‘quando eu toco é para os meus amigos. A casa se enche de gente. Realizo os trabalhos, mas não me interessa muito fazer filho de santo, porque as coisas estão muito rebeldes. O povo não quer respeitar. As vezes estamos com a casa cheia e na mesma hora a casa está seca’.",
+        "description": "Aberto há 14 anos, o Terreiro de Ogum é zelado pela Yalorixá Maria Alves da Silva, mãe Maria de Ogum. Aos 69 anos, mãe Maria de Ogum, está há mais de 20 anos realizando suas tarefas no Candomblé. Sua dijina é Ogum Rondê Mata Verde de Unzo e sua nação é de Angola. No Candomblé começou sua caminhada como Mãe Pequena, no mesmo local onde reside hoje e que pertencia a mãe Maria Golpeia, que não está mais nesse plano. Quando ela partiu, Mãe Maria de Ogum assumiu a casa. Depois foi fazer a obrigação com Mãe Luiza, no Lomanto Júnior. Não possui filhos feitos ‘quando eu toco é para os meus amigos. A casa se enche de gente. Realizo os trabalhos, mas não me interessa muito fazer filho de santo, porque as coisas estão muito rebeldes. O povo não quer respeitar. As vezes estamos com a casa cheia e na mesma hora a casa está seca’.",
         "caption": "Terreiro Casa de Ogum",
         "video": false,
         "sound": false,
@@ -4617,6 +4617,57 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-40.50284, -9.41784]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": "Maria da Paixão Martins dos Santos, de 58 anos, mais conhecida como mãe Maria de Tempo, dirige o terreiro Terreiro Banda Lê Koongo (a casa do rei), há cerca de 29 anos, quando fundou sua casa no bairro Quidé, na cidade de Juazeiro/BA. Sua dijina é Lemburacingué, e seu Orixá é Tempo Zará Lemburacingué de N’zambi. Sua casa é de Nação Angola, possui mais de 70 filhos, espalhados pelo Brasil e exterior, que foram feitos ou pela Nação Angola ou pela Ketu.",
+        "caption": "Terreiro Banda Lê Koongo",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult66.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52665, -9.43165]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Terreiro Banda Lê Koongo",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult67.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52665, -9.43165]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1296252907&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
+        "height": "200",
+        "width": "300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52665, -9.43165]
       }
     },
     {
