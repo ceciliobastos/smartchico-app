@@ -4826,6 +4826,57 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": "José Nunes Cajarana Filho, 76, zela ainda hoje o terreiro de Oxóssi, fundado há 40 anos. É filho do pai de santo Geraldo, também da Umbanda. Não tem filhos na casa, mas quando chega alguém precisando sempre atende. Ele explica que o candomblé se faz um ebo e despacha com Exu, na Umbanda puxa a entidade para saber o que ele quer ‘porque às vezes a pessoa morre e tem alguma promessa, algum perdão’. Apesar da idade ele mantém disposição para acolher a todas as pessoas que vão procurá-lo em busca de ajuda. Ele se envolveu com a religião quando ainda era menino. Ele conta que só vivia nervoso, com medo das entidades, ouvia muitas vozes. Até que procurou ajuda com uma rezadeira, que o recomendou procurar um centro espírita, foi quando melhorou.",
+        "caption": "Terreiro de Oxóssi",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult74.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.47422, -9.42996]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Terreiro de Oxóssi",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult75.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.47422, -9.42996]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1296252802&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
+        "height": "200",
+        "width": "300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.47422, -9.42996]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
