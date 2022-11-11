@@ -4775,6 +4775,57 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": "Iniciado no Candomblé a mais de 30 anos, Pai Iata tem 48 anos e comanda o terreiro Unzo Congo Opô Mutalengunzo, fundado há sete anos casa de Odé, de Oxossi, casa do caçador, onde o verde e as folhas predominam. ‘Eu acho que não há Orixá, não há ação e função dentro do Candomblé, sem as folhas, que é onde nasce a força para os Orixás’. O terreiro fica localizado no Morrão, no bairro Dom José Rodrigues, em Juazeiro/BA. O pai Iata, como é conhecido, foi feito no axé há 16 anos, na casa de Odé Jomim. Ele foi raspado pela mãe Flora, que já faleceu. Conta que a vida no Candomblé é uma jornada complicada apenas por causa do preconceito, mas mantém o seu axé com resistência. É filho de pai Jorge, leva para a sua casa as heranças do axé de seu pai. Ele conta que iniciou sua vida no Candomblé na casa do Babalorixá Erivaldo, seus primeiros filhos foram feitos na casa dele, tomou seu Decá na casa dele.",
+        "caption": "Terreiro Unzó Congo Opó Mutalegunzo",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult72.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51917, -9.46427]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": "É da nação Ketu, mas fala que é ‘angoleiro, não nego minha bandeira. Hoje estou no axé de Ketu, mas a minha bandeira é de Angola. Porque a gente só nasce uma vez, a gente pode tomar axé, como eu fui tomar na casa do pai Jorge, mas a minha bandeira é de Angola, mas tenho muito filho feito na minha casa, de Ketu’. Algumas das suas festas seguem um calendário padrão, mas não são todas. Em janeiro ocorre a festa de Oxossi, em junho é a feijoada de Ogum. Já em agosto ocorre a festa a Obaluaiê e, em outubro, tem a festa do Caboclo Tupinambá. Mas as outras datas são colocadas de acordo com as possibilidades dos filhos fazerem suas obrigações.",
+        "caption": "Terreiro Unzó Congo Opó Mutalegunzo",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult73.jpg",
+        "height": "182",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51917, -9.46427]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1296252829&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
+        "height": "200",
+        "width": "300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51917, -9.46427]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
