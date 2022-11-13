@@ -5030,6 +5030,40 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": "O Terreiro Ylê Axé Omim Orô Lêse tem como sacerdote dirigente o Babalorixá Junior Cruz de Oxum, ou omimlándêgy, seu nome dentro do candomblé. A sua casa é de nação ketu e está em funcionamento há seis anos, e fica localizada no Parque Jatobá, próximo a Serra da Batateira.  Pai Junior foi iniciado há 14 anos e ao logo desses anos de fé e dedicação aos orixás, também viveu momentos de intolerância religiosa, onde seu terreiro foi vandalizado pelo preconceito, mas para o Babalorixá o motivo de continuar é maior: ‘passei por diversas provações, quais também sofri intolerância religiosa ao meu terreiro, mas quem nasceu pra Orixá nunca perde a fé’.",
+        "caption": "Terreiro Ylê Axé Omim Orô Lêse",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult84.jpg",
+        "height": "144",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49160, -9.47773]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Terreiro Ylê Axé Omim Orô Lêse",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult85.jpg",
+        "height": "275",
+        "width": "137"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49160, -9.47773]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
