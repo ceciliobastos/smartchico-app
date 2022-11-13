@@ -5132,6 +5132,40 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": false,
+        "video": false,
+        "sound": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1302396922&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+        "image": false,
+        "height": "200",
+        "width": "300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52430, -9.43086]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": "Mãe Rebecca de Oxalufã é a sacerdotisa do Terreiro de Umbanda Tenda de Oxalá. A casa fica colocalizada no bairro Quidé, em Juazeiro, e têm 35 filhos frequentes. Os Orixás da coroa de Mãe Rebecca são Oxalufã, Iemanjá e Nanã, além das entidades guias; Caboclo Sete Flechas, e Dona Rosa Caveira das Sete Catacumbas, que também fazem parte da sua corrente.",
+        "caption": "Terreiro Tenda de Oxalá",
+        "video": false,
+        "sound": false,
+        "image": false,
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52351, -9.42650]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
