@@ -4996,6 +4996,40 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": "Herdeiro de Mãe Glória, Pai Raimuindinho migrou a casa de sua vó de Petrolina para Juazeiro na década de 90, hoje em funcionamento no bairro Malhada da Areia. O terreiro pertence a nação Keto e tem a regência dos orixás Logunedé e Yansã, e possui duas festividades importantes: obrigações de janeiro, e a cerimônia que homenageia Obaluaiê. Entre filhos e netos de santo formam uma família de 65 membros.",
+        "caption": "Terreiro Oloquibalê",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult82.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51504, -9.44382]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Terreiro Oloquibalê",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult83.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51504, -9.44382]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
