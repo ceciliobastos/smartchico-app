@@ -4928,6 +4928,40 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": "O Terreiro de Umbanda Congá de Seu Zé é dirigido pelo pai de santo Edson de Santana Carvalho. Seu Terreiro tem como patrono, a entidade Zé Pilintra, ou apenas Seu Zé, como a própria entidade gosta de ser chamada. Além de Seu Zé, Pai Edson também trabalha na sua casa com outras energias; Pai Joaquim de Angola, Seu Tranca-rua, etc. Edson foi criado pelo seu avô Seu Manoel, a pedido do Preto Velho, que tão cedo previu a missão daquela pequena criança, que no futuro, cuidaria da espiritualidade das outras pessoas por meio da umbanda sagrada.",
+        "caption": "Terreiro de Umbanda Zé Congá",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult78.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51052, -9.45657]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Terreiro de Umbanda Zé Congá",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult79.jpg",
+        "height": "184",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.51052, -9.45657]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
