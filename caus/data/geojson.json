@@ -5064,6 +5064,40 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": "Rita Maria da Silva, ou Mãe Rita, de 71 anos, é dirigente do Terreiro de Oxum, uma casa de ‘umbanda traçada’ que está em funcionamento desde 1991. O terreiro de Mãe Rita tem festividades para Cosme e Damião, Ogún, Obaluaê, e fica localizado no bairro João Paulo II. Sua relação na umbanda também começa por motivo de doença, assim como grande parte dos adeptos da religiosidade de matriz africana. A missão de Mãe Rita de Oxum é zelar dos Orixás e das pessoas por meio fé.",
+        "caption": "Terreiro de Oxum",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult86.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49672, -9.46485]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Terreiro de Oxum",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult87.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.49672, -9.46485]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
