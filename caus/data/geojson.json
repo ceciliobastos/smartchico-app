@@ -4962,6 +4962,40 @@
     {
       "type": "Feature",
       "properties": {
+        "category": "cultura",
+        "description": "Fredson da Silva é o dirigente do Terreiro Abáçar de Bamburúcema e seu nome no candomblé é Bamburuque. Uma casa de nação Angola, fundada em 1998 e que fica localizada no bairro Tabuleiro em Juazeiro. As datas importantes e festivas no terreiro são: 20 de julho, onde acontece a cerimônia anual em homenagem ao Caboclo Boiadeiro; 04 de dezembro, a festividade de Iansã; e 08 de dezembro festa de Oxum.",
+        "caption": "Terreiro Abáçar de Bamburúcema",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult80.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.47888, -9.42767]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "cultura",
+        "description": false,
+        "caption": "Terreiro Abáçar de Bamburúcema",
+        "video": false,
+        "sound": false,
+        "image": "https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/images/geocult/cult81.jpg",
+        "height": "183",
+        "width": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.47888, -9.42767]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "category": "turismo",
         "description": false,
         "caption": "Monumento em homenagem ao município",
