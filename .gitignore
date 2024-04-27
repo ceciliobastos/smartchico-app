@@ -38,11 +38,7 @@ captures/
 
 # Intellij
 *.iml
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/dictionaries
-.idea/libraries
+.idea/
 
 # Keystore files
 *.jks
@@ -69,6 +65,11 @@ bin/*
 !/plugins/fetch.json
 plugins/*
 platforms/*
+
+app/plugins/
+app/platforms/
+app/node_modules/
+app/package-lock.json
 
 ### Backup ###
 *.bak
