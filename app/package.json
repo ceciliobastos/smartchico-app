@@ -30,7 +30,8 @@
     "platforms": [
       "android",
       "ios",
-      "electron"
+      "electron",
+      "browser"
     ],
     "plugins": {
       "cordova-plugin-device": {},
@@ -42,5 +43,8 @@
       "cordova-plugin-statusbar": {},
       "cordova-plugin-whitelist": {}
     }
+  },
+  "dependencies": {
+    "cordova": "^12.0.0"
   }
 }
