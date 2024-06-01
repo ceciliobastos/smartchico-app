@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.bigeyessolution.smartchico" version="1.0.9" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="br.uneb.smartchico" version="1.0.9" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>SmartChico</name>
     <description>
 	Aplicativo com a finalidade de promover a cultura do Território de Identidade Sertão do São Francisco, que compreende os municípios baianos de Juazeiro, Curaçá, Sobradinho, Casa Nova, Canudos, Uauá, Campo Alegre de Lourdes, Sento Sé, Pilão Arcado e Remanso. Busca se alinhar a propósitos críticos interrelacionados com uma melhor compreensão e fomento das cidades inteligentes, cuja infraestrutura incorpora redes e serviços de computadores, que são consumidos pelos usuários emmobilidade pelo espaço urbano. Para coleta, tratamento e divulgação das informações, são utilizados procedimentos com mídias locativas e produção de conteúdo informativo para bases de dados abertas. Os dados são importados para o aplicativo dedicado, contribuindo para aumentar uma divulgação fundamentada em aspectos ligados à cultura regional, como urbanografia (arte de rua, esculturas, monumentos, lendas urbanas etc), equipamentos/serviços culturais públicos, turismo (serras, parques, cachoeiras etc).
     </description>
-    <author email="contato@bigeyes.solutions" href="http://bigeyes.solutions">
+    <author email="contato@laudivan.eti.br" href="">
         Big Eyes Solution
     </author>
     <author email="luizadolfoandrade@gmail.com" href="">
@@ -25,6 +25,18 @@
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="FadeSplashScreenDuration" value="500" />
     <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference density="land-hdpi" name="AndroidWindowSplashScreenAnimatedIcon" src="res/screen/android/splash-land-hdpi.png" />
+    <preference density="land-ldpi" name="AndroidWindowSplashScreenAnimatedIcon" src="res/screen/android/splash-land-ldpi.png" />
+    <preference density="land-mdpi" name="AndroidWindowSplashScreenAnimatedIcon" src="res/screen/android/splash-land-mdpi.png" />
+    <preference density="land-xhdpi" name="AndroidWindowSplashScreenAnimatedIcon" src="res/screen/android/splash-land-xhdpi.png" />
+    <preference density="land-xxhdpi" name="AndroidWindowSplashScreenAnimatedIcon" src="res/screen/android/splash-land-xxhdpi.png" />
+    <preference density="land-xxxhdpi" name="AndroidWindowSplashScreenAnimatedIcon" src="res/screen/android/splash-land-xxxhdpi.png" />
+    <preference density="port-hdpi" name="AndroidWindowSplashScreenAnimatedIcon" src="res/screen/android/splash-port-hdpi.png" />
+    <preference density="port-ldpi" name="AndroidWindowSplashScreenAnimatedIcon" src="res/screen/android/splash-port-ldpi.png" />
+    <preference density="port-mdpi" name="AndroidWindowSplashScreenAnimatedIcon" src="res/screen/android/splash-port-mdpi.png" />
+    <preference density="port-xhdpi" name="AndroidWindowSplashScreenAnimatedIcon" src="res/screen/android/splash-port-xhdpi.png" />
+    <preference density="port-xxhdpi" name="AndroidWindowSplashScreenAnimatedIcon" src="res/screen/android/splash-port-xxhdpi.png" />
+    <preference density="port-xxxhdpi" name="AndroidWindowSplashScreenAnimatedIcon" src="res/screen/android/splash-port-xxxhdpi.png" />
     <access origin="*" />
     <access origin="http://caus.eco.br/*" />
     <access origin="https://api.tiles.mapbox.com/*" />
@@ -45,18 +57,6 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <platform name="android">
-        <splash density="land-hdpi" src="res/screen/android/splash-land-hdpi.png" />
-        <splash density="land-ldpi" src="res/screen/android/splash-land-ldpi.png" />
-        <splash density="land-mdpi" src="res/screen/android/splash-land-mdpi.png" />
-        <splash density="land-xhdpi" src="res/screen/android/splash-land-xhdpi.png" />
-        <splash density="land-xxhdpi" src="res/screen/android/splash-land-xxhdpi.png" />
-        <splash density="land-xxxhdpi" src="res/screen/android/splash-land-xxxhdpi.png" />
-        <splash density="port-hdpi" src="res/screen/android/splash-port-hdpi.png" />
-        <splash density="port-ldpi" src="res/screen/android/splash-port-ldpi.png" />
-        <splash density="port-mdpi" src="res/screen/android/splash-port-mdpi.png" />
-        <splash density="port-xhdpi" src="res/screen/android/splash-port-xhdpi.png" />
-        <splash density="port-xxhdpi" src="res/screen/android/splash-port-xxhdpi.png" />
-        <splash density="port-xxxhdpi" src="res/screen/android/splash-port-xxxhdpi.png" />
         <icon density="ldpi" src="res/android/ldpi.png" />
         <icon density="mdpi" src="res/android/mdpi.png" />
         <icon density="hdpi" src="res/android/hdpi.png" />
@@ -90,11 +90,11 @@
         <icon height="58" src="res/ios/icon-small@2x.png" width="58" />
         <icon height="50" src="res/ios/icon-50.png" width="50" />
         <icon height="100" src="res/ios/icon-50@2x.png" width="100" />
-        <edit-config target="NSLocationAlwaysUsageDescription" file="*-Info.plist" mode="merge">
-          <string>É necessária a localização para mostrar os pontos próximos.</string>
+        <edit-config file="*-Info.plist" mode="merge" target="NSLocationAlwaysUsageDescription">
+            <string>É necessária a localização para mostrar os pontos próximos.</string>
         </edit-config>
-        <edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
-          <string>É necessária a localização para mostrar os pontos próximos.</string>
+        <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
+            <string>É necessária a localização para mostrar os pontos próximos.</string>
         </edit-config>
     </platform>
     <plugin name="cordova-plugin-splashscreen" />
@@ -103,6 +103,5 @@
     <plugin name="cordova-plugin-geolocation" />
     <plugin name="cordova-plugin-dialogs" />
     <plugin name="cordova-plugin-device" />
-    <engine name="android" />
     <engine name="ios" />
 </widget>
