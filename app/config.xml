@@ -41,8 +41,8 @@
     <access origin="http://caus.eco.br/*" />
     <access origin="https://api.tiles.mapbox.com/*" />
     <access origin="https://api.tiles.mapbox.com/v1.12.0/rogeriobastos.08164jab/*" />
-    <access origin="https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/geojson.json" />
-    <access origin="https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/messages.json" />
+    <access origin="https://raw.githubusercontent.com/ceciliobastos/smartchico-app/main/caus/data/geojson.json" />
+    <access origin="https://raw.githubusercontent.com/ceciliobastos/smartchico-app/main/caus/data/messages.json" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />

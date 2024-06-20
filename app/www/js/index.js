@@ -1,6 +1,6 @@
 
-var geojsonbase = 'https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/geojson.json';
-var msgsbase = 'https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/caus/data/messages.json';
+var geojsonbase = 'https://raw.githubusercontent.com/ceciliobastos/smartchico-app/main/caus/data/geojson.json';
+var msgsbase = 'https://raw.githubusercontent.com/ceciliobastos/smartchico-app/main/caus/data/messages.json';
 var lastPosition = [-9.41192,-40.50267];
 var localGeoJSON = false;
 var localMsgs = false;

@@ -1,4 +1,4 @@
-![alt text](https://raw.githubusercontent.com/bigeyessolution/SmartChico/master/doc/images/icon.256.png)
+![alt text](https://raw.githubusercontent.com/ceciliobastos/smartchico-app/main/doc/images/icon.256.png)
 
 Cartografia Urbanográfica do Sertão do São Francisco
 
