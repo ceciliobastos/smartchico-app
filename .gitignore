@@ -69,7 +69,6 @@ platforms/*
 app/plugins/
 app/platforms/
 app/node_modules/
-app/package-lock.json
 
 ### Backup ###
 *.bak
