@@ -1,0 +1,2 @@
+jarsigner.all = -verbose
+jarsigner.sign = -sigalg SHA256withRSA -digestalg SHA256 -keystore /key/smartchico-upload.keystore -storepass:env STOREPASS -keypass:env KEYPASS

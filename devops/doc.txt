@@ -1,0 +1,31 @@
+# Create build environment
+podman build -f Dockerfile -t smartchido-build .
+
+# Build android app bundle
+podman run -it --rm --volume ${PWD}/../app:/app --volume ${PWD}/key:/key:ro --env STOREPASS --env KEYPASS localhost/smartchido-build:latest
+
+# or run bash and execute the following commands:
+cordova platform add android
+cordova build android --release -- --packageType=bundle
+# Sign android app bundle
+cd platforms/android/app/build/outputs/bundle/release
+jarsigner -conf /key/config app-release.aab smartchico-upload
+/opt/android-sdk-linux/build-tools/34.0.0/zipalign -v 4 app-release.aab smartchico-release.aab
+
+
+
+# Upgrade cordova
+# https://ionic.zone/cordova/update
+npm install cordova-android@12.0.1
+cordova plugin remove cordova-plugin-splashscreen
+cordova plugin remove cordova-plugin-whitelist
+# https://ionic.zendesk.com/hc/en-us/articles/7891143965975-Migrating-to-Cordova-Android-11
+cordova platform add android
+
+
+# Generate keystore to app upload
+keytool -genkey -v -keystore filename.keystore -alias app-upload -keyalg RSA -keysize 2048 -validity 10000
+
+# How to sign jar
+jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA256 -keystore /path/filename.keystore -storepass $STOREPASS -keypass $KEYPASS app-release.aab app-upload 
+/opt/android-sdk-linux/build-tools/34.0.0/zipalign -v 4 app-release.aab app-release2.aab
